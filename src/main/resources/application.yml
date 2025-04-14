@@ -1,0 +1,78 @@
+server:
+  port: 80
+
+spring:
+  cloud:
+    gateway:
+      default-filters:
+        - name: Authentication
+          args:
+            excludePaths:
+              - /
+              - /login
+              - /loginProc
+              - /logout
+
+# routes 를 따로 따로 해주지 않으면 경로를 인식 못함 -->
+      # - Path=/ = X
+      # - Path=/login = X
+      # - Path=/loginProc = X
+      # ===============>
+      # - Path=/,/login,/loginProc = O
+# excludePaths를 등록해줬더라도 routes를 또 설정해주지 않으면 Gateway가 인식하지 못함
+      routes:
+        - id: chat-api-root-login
+          uri: http://localhost:8081
+          predicates:
+            - Path=/,/login,/loginProc,/logout
+
+        - id: chat-api-chatView
+          uri: http://localhost:8081
+          predicates:
+            - Path=/view/chatView
+          filters:
+            - name: Authentication
+
+        - id: chat-ws
+          uri: http://localhost:8081
+          predicates:
+            - Path=/ws/chat/**
+          filters:
+            - name: Authentication
+
+        - id: chat-api-api
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/chat/**
+
+        - id: chat-list
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/chatList/**,/view/chatListView,/ws/chatList/**
+
+        - id: friends
+          uri: http://localhost:8082
+          predicates:
+            - Path=/view/friendListView,/api/friends,/api/friends/**
+
+  kafka:
+    bootstrap-servers: localhost:9092
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017,localhost:27018/?replicaSet=rs0
+      database: chatdb
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/webflux?useUnicode=true&characterEncoding=utf-8&serverZoneId=UTC
+    username: java
+    password: java
+
+jwt:
+  secret: iOaMqTcUVTa0UuNTy4XfYrE9YJuWTUPg0QAWyZazn5iPdlP8GObBRAg4YgaLk2gHQ7DRf71AYj8bml0yhnZXwE9YJuWTUPg0QAWyZazn5iPdlP8GObNTy4XfYrE9YJuWTUPg0QAWyZa
+  access-token-expiration: 1800000   # 30분
+  refresh-token-expiration: 604800000 # 7일-
