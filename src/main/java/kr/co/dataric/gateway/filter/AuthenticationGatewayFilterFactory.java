@@ -53,7 +53,7 @@ public class AuthenticationGatewayFilterFactory extends AbstractGatewayFilterFac
 			log.info("[AUTH] path: {}", path);
 			
 			// WebSocket 및 excludePaths 무시 처리
-			if (config.excludePaths != null && config.excludePaths.stream().anyMatch(path::equals)) { // stream() 은 java8 이후부터 사용가능한 List,Set 형식
+			if (config.excludePaths != null && config.excludePaths.stream().anyMatch(path::equals)) {
 				return chain.filter(exchange);
 			}
 			
