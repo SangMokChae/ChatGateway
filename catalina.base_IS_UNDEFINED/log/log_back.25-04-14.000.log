@@ -1,0 +1,156 @@
+25-04-14 14:18:07 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-14 14:18:07 INFO  | Starting ChatGatewayApplication using Java 17 with PID 17852 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-14 14:18:07 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-14 14:18:10 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-14 14:18:10 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-14 14:18:10 INFO  | Finished Spring Data repository scanning in 37 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-14 14:18:10 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-14 14:18:10 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-14 14:18:10 INFO  | Finished Spring Data repository scanning in 19 ms. Found 0 R2DBC repository interfaces.
+25-04-14 14:18:10 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-14 14:18:10 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-14 14:18:10 INFO  | Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+25-04-14 14:18:10 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-14 14:18:13 INFO  | Cannot determine local hostname
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [After]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-14 14:18:14 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-14 14:18:14 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-14 14:18:14 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-14 14:18:14 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@1592e540, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3e2772a9, com.mongodb.Jep395RecordCodecProvider@4449b273, com.mongodb.KotlinCodecProvider@1fa18f87]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-14 14:18:14 INFO  | Exception in monitor thread while connecting to server localhost:27018
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.netty.NettyStream$OpenChannelFutureListener.lambda$operationComplete$1(NettyStream.java:527)
+	at com.mongodb.internal.Locks.lambda$withLock$0(Locks.java:33)
+	at com.mongodb.internal.Locks.checkedWithLock(Locks.java:45)
+	at com.mongodb.internal.Locks.withLock(Locks.java:39)
+	at com.mongodb.internal.Locks.withLock(Locks.java:32)
+	at com.mongodb.internal.connection.netty.NettyStream$OpenChannelFutureListener.operationComplete(NettyStream.java:514)
+	at com.mongodb.internal.connection.netty.NettyStream$OpenChannelFutureListener.operationComplete(NettyStream.java:500)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:326)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:342)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:27018
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-14 14:18:15 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=64344900, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67f3211eab3e9bef9c415fde, counter=9}, lastWriteDate=Fri Apr 11 13:52:16 KST 2025, lastUpdateTimeNanos=620935470704500}
+25-04-14 14:18:17 INFO  | Cannot determine local hostname
+25-04-14 14:18:17 INFO  | Netty started on port 80 (http)
+25-04-14 14:18:18 INFO  | Cannot determine local hostname
+25-04-14 14:18:20 INFO  | Cannot determine local hostname
+25-04-14 14:18:20 INFO  | Started ChatGatewayApplication in 18.264 seconds (process running for 19.91)
+25-04-14 14:18:34 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=51900728, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000049, setVersion=3, topologyVersion=TopologyVersion{processId=67f3211eab3e9bef9c415fde, counter=10}, lastWriteDate=Fri Apr 11 13:52:16 KST 2025, lastUpdateTimeNanos=620954685201600}
+25-04-14 14:18:34 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=51900728, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000049, setVersion=3, topologyVersion=TopologyVersion{processId=67f3211eab3e9bef9c415fde, counter=12}, lastWriteDate=Mon Apr 14 14:18:34 KST 2025, lastUpdateTimeNanos=620954696432800}
+25-04-14 14:18:34 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000049 and max set version 3
+25-04-14 14:18:35 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3570400, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67fc9aa63b152b842017bafa, counter=4}, lastWriteDate=Mon Apr 14 14:18:34 KST 2025, lastUpdateTimeNanos=620955443926800}
+25-04-14 14:19:26 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-14 14:19:26 INFO  | Starting ChatGatewayApplication using Java 17 with PID 18264 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-14 14:19:26 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-14 14:19:27 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-14 14:19:27 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-14 14:19:27 INFO  | Finished Spring Data repository scanning in 23 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-14 14:19:27 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-14 14:19:27 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-14 14:19:27 INFO  | Finished Spring Data repository scanning in 8 ms. Found 0 R2DBC repository interfaces.
+25-04-14 14:19:27 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-14 14:19:27 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-14 14:19:27 INFO  | Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+25-04-14 14:19:27 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-14 14:19:30 INFO  | Cannot determine local hostname
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [After]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-14 14:19:31 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-14 14:19:31 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-14 14:19:31 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-14 14:19:31 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@18ac4af6, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@117fb9ba, com.mongodb.Jep395RecordCodecProvider@2b1d1a5, com.mongodb.KotlinCodecProvider@41e7a544]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-14 14:19:32 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=104565500, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000049, setVersion=3, topologyVersion=TopologyVersion{processId=67f3211eab3e9bef9c415fde, counter=12}, lastWriteDate=Mon Apr 14 14:19:24 KST 2025, lastUpdateTimeNanos=621012724605300}
+25-04-14 14:19:32 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=105250700, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67fc9aa63b152b842017bafa, counter=4}, lastWriteDate=Mon Apr 14 14:19:24 KST 2025, lastUpdateTimeNanos=621012725273300}
+25-04-14 14:19:32 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000049 and max set version 3
+25-04-14 14:19:34 INFO  | Cannot determine local hostname
+25-04-14 14:19:34 INFO  | Netty started on port 80 (http)
+25-04-14 14:19:36 INFO  | Cannot determine local hostname
+25-04-14 14:19:37 INFO  | Cannot determine local hostname
+25-04-14 14:19:38 INFO  | Started ChatGatewayApplication in 14.209 seconds (process running for 14.748)
+25-04-14 16:39:39 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-14 16:39:39 INFO  | Starting ChatGatewayApplication using Java 17 with PID 14344 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-14 16:39:39 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-14 16:39:42 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-14 16:39:42 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-14 16:39:42 INFO  | Finished Spring Data repository scanning in 41 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-14 16:39:42 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-14 16:39:42 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-14 16:39:42 INFO  | Finished Spring Data repository scanning in 23 ms. Found 0 R2DBC repository interfaces.
+25-04-14 16:39:42 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-14 16:39:42 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-14 16:39:42 INFO  | Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+25-04-14 16:39:42 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [After]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-14 16:39:46 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-14 16:39:48 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-14 16:39:48 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-14 16:39:48 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@ace2408, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3573e19d, com.mongodb.Jep395RecordCodecProvider@5c1dd18, com.mongodb.KotlinCodecProvider@2a6dbb7c]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-14 16:39:49 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=150152100, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000049, setVersion=3, topologyVersion=TopologyVersion{processId=67f3211eab3e9bef9c415fde, counter=12}, lastWriteDate=Mon Apr 14 16:39:44 KST 2025, lastUpdateTimeNanos=629429751716500}
+25-04-14 16:39:49 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000049 and max set version 3
+25-04-14 16:39:49 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=150371200, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67fc9aa63b152b842017bafa, counter=4}, lastWriteDate=Mon Apr 14 16:39:44 KST 2025, lastUpdateTimeNanos=629429754776800}
+25-04-14 16:39:50 INFO  | Netty started on port 80 (http)
+25-04-14 16:39:52 INFO  | Started ChatGatewayApplication in 14.214 seconds (process running for 14.781)

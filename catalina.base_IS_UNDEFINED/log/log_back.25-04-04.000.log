@@ -1,0 +1,1237 @@
+25-04-04 00:59:50 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2822923, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=178}, lastWriteDate=Fri Apr 04 00:00:12 KST 2025, lastUpdateTimeNanos=2374302905496900}
+25-04-04 01:00:08 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3098990, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=178}, lastWriteDate=Fri Apr 04 01:00:02 KST 2025, lastUpdateTimeNanos=2374321554350400}
+25-04-04 01:00:38 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_OTHER, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5890380, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=7fffffff000000000000003e, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=45}, lastWriteDate=Fri Apr 04 01:00:22 KST 2025, lastUpdateTimeNanos=2374351231833300}
+25-04-04 01:00:38 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5890380, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=46}, lastWriteDate=Fri Apr 04 01:00:22 KST 2025, lastUpdateTimeNanos=2374351289746400}
+25-04-04 01:00:38 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3251733, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff000000000000003f, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=179}, lastWriteDate=Fri Apr 04 01:00:22 KST 2025, lastUpdateTimeNanos=2374351295927000}
+25-04-04 01:00:38 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3251733, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff000000000000003f, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=181}, lastWriteDate=Fri Apr 04 01:00:38 KST 2025, lastUpdateTimeNanos=2374351375101700}
+25-04-04 01:00:38 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff000000000000003f and max set version 3
+25-04-04 01:59:50 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_OTHER, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3251733, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff000000000000003f, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=182}, lastWriteDate=Fri Apr 04 01:00:48 KST 2025, lastUpdateTimeNanos=2377903154216800}
+25-04-04 01:59:50 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3251733, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=183}, lastWriteDate=Fri Apr 04 01:00:48 KST 2025, lastUpdateTimeNanos=2377903173086700}
+25-04-04 01:59:59 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3260606, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000040, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=184}, lastWriteDate=Fri Apr 04 01:00:48 KST 2025, lastUpdateTimeNanos=2377912076925800}
+25-04-04 01:59:59 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3260606, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000040, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=186}, lastWriteDate=Fri Apr 04 01:59:59 KST 2025, lastUpdateTimeNanos=2377912269619200}
+25-04-04 01:59:59 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000040 and max set version 3
+25-04-04 02:00:09 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5268867, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=48}, lastWriteDate=Fri Apr 04 01:59:59 KST 2025, lastUpdateTimeNanos=2377922221102800}
+25-04-04 02:59:50 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_OTHER, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3032863, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000040, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=187}, lastWriteDate=Fri Apr 04 02:00:29 KST 2025, lastUpdateTimeNanos=2381503379156200}
+25-04-04 02:59:50 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3032863, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=188}, lastWriteDate=Fri Apr 04 02:00:29 KST 2025, lastUpdateTimeNanos=2381503383139300}
+25-04-04 02:59:59 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3141450, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000041, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=189}, lastWriteDate=Fri Apr 04 02:00:29 KST 2025, lastUpdateTimeNanos=2381512466839000}
+25-04-04 02:59:59 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4572202, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=49}, lastWriteDate=Fri Apr 04 02:00:29 KST 2025, lastUpdateTimeNanos=2381512599146200}
+25-04-04 02:59:59 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3141450, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000041, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=191}, lastWriteDate=Fri Apr 04 02:59:59 KST 2025, lastUpdateTimeNanos=2381512644878700}
+25-04-04 02:59:59 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000041 and max set version 3
+25-04-04 03:00:09 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5148421, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=49}, lastWriteDate=Fri Apr 04 02:59:59 KST 2025, lastUpdateTimeNanos=2381522626798300}
+25-04-04 03:59:50 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_OTHER, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3029393, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000041, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=192}, lastWriteDate=Fri Apr 04 03:00:29 KST 2025, lastUpdateTimeNanos=2385103350564300}
+25-04-04 03:59:50 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3029393, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=193}, lastWriteDate=Fri Apr 04 03:00:29 KST 2025, lastUpdateTimeNanos=2385103352608900}
+25-04-04 03:59:59 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3029393, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000042, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=194}, lastWriteDate=Fri Apr 04 03:00:29 KST 2025, lastUpdateTimeNanos=2385112733279900}
+25-04-04 04:00:00 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4570436, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=50}, lastWriteDate=Fri Apr 04 03:00:29 KST 2025, lastUpdateTimeNanos=2385112921239800}
+25-04-04 04:00:00 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4316394, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000042, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=196}, lastWriteDate=Fri Apr 04 04:00:00 KST 2025, lastUpdateTimeNanos=2385112975797200}
+25-04-04 04:00:00 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000042 and max set version 3
+25-04-04 04:00:10 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4993248, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=50}, lastWriteDate=Fri Apr 04 04:00:00 KST 2025, lastUpdateTimeNanos=2385122922382900}
+25-04-04 04:59:50 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_OTHER, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4392372, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000042, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=197}, lastWriteDate=Fri Apr 04 04:00:30 KST 2025, lastUpdateTimeNanos=2388703137567800}
+25-04-04 04:59:50 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4392372, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=198}, lastWriteDate=Fri Apr 04 04:00:30 KST 2025, lastUpdateTimeNanos=2388703139869000}
+25-04-04 04:59:50 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4516438, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=50}, lastWriteDate=Fri Apr 04 04:00:30 KST 2025, lastUpdateTimeNanos=2388703678230900}
+25-04-04 05:00:00 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4284670, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=7fffffff0000000000000043, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=51}, lastWriteDate=Fri Apr 04 04:00:30 KST 2025, lastUpdateTimeNanos=2388713285657200}
+25-04-04 05:00:04 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4284670, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=7fffffff0000000000000043, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=53}, lastWriteDate=Fri Apr 04 05:00:04 KST 2025, lastUpdateTimeNanos=2388717562713700}
+25-04-04 05:00:04 INFO  | Discovered replica set primary localhost:27018 with max election id 7fffffff0000000000000043 and max set version 3
+25-04-04 05:00:14 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4231305, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=199}, lastWriteDate=Fri Apr 04 05:00:04 KST 2025, lastUpdateTimeNanos=2388727541915900}
+25-04-04 05:59:50 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3906531, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=199}, lastWriteDate=Fri Apr 04 05:00:34 KST 2025, lastUpdateTimeNanos=2392303505839400}
+25-04-04 05:59:58 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3968884, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=199}, lastWriteDate=Fri Apr 04 05:00:34 KST 2025, lastUpdateTimeNanos=2392311413067600}
+25-04-04 06:59:49 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3809675, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=199}, lastWriteDate=Fri Apr 04 06:00:19 KST 2025, lastUpdateTimeNanos=2395902443491600}
+25-04-04 07:00:07 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4129780, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=199}, lastWriteDate=Fri Apr 04 07:00:03 KST 2025, lastUpdateTimeNanos=2395920187435800}
+25-04-04 07:51:07 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4532780, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='null', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=199}, lastWriteDate=Fri Apr 04 07:00:23 KST 2025, lastUpdateTimeNanos=2398980122712300}
+25-04-04 07:51:15 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3931684, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=199}, lastWriteDate=Fri Apr 04 07:51:08 KST 2025, lastUpdateTimeNanos=2398988531921400}
+25-04-04 07:56:20 INFO  | [AUTH] path: /view/chatListView
+25-04-04 07:56:20 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 07:56:20 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-04 07:56:23 INFO  | [AUTH] path: /
+25-04-04 07:56:23 INFO  | [AUTH] path: /login
+25-04-04 07:56:23 INFO  | [AUTH] path: /view/chatListView
+25-04-04 07:56:24 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 07:56:28 INFO  | [AUTH] path: /view/chatView
+25-04-04 07:56:28 INFO  | [AUTH] path: /view/chatView
+25-04-04 07:56:28 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 07:56:28 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 07:56:29 INFO  | [AUTH] path: /api/chat/history
+25-04-04 07:56:30 INFO  | [AUTH] path: /view/chatListView
+25-04-04 07:56:30 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 07:56:31 INFO  | [AUTH] path: /view/chatListView
+25-04-04 07:56:32 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 07:57:09 INFO  | [AUTH] path: /logout
+25-04-04 07:57:09 INFO  | [AUTH] path: /view/chatListView
+25-04-04 07:57:09 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 07:57:09 WARN  | [AUTH] accessToken/refreshToken 모두 userId 추출 실패
+25-04-04 07:57:09 INFO  | [AUTH] path: /login
+25-04-04 07:57:11 INFO  | [AUTH] path: /loginProc
+25-04-04 07:57:12 INFO  | [AUTH] path: /view/chatListView
+25-04-04 07:57:12 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 07:58:15 INFO  | [AUTH] path: /logout
+25-04-04 07:58:15 INFO  | [AUTH] path: /view/chatListView
+25-04-04 07:58:15 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 07:58:15 WARN  | [AUTH] accessToken/refreshToken 모두 userId 추출 실패
+25-04-04 07:58:15 INFO  | [AUTH] path: /login
+25-04-04 07:58:23 INFO  | [AUTH] path: /loginProc
+25-04-04 07:58:23 INFO  | [AUTH] path: /view/chatListView
+25-04-04 07:58:23 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 10:58:05 INFO  | [AUTH] path: /view/chatView
+25-04-04 10:58:05 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 10:58:05 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-04 10:58:05 INFO  | [AUTH] path: /view/chatView
+25-04-04 10:58:05 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 10:58:05 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-04 10:58:05 INFO  | [AUTH] path: /login
+25-04-04 10:58:05 INFO  | [AUTH] path: /view/chatListView
+25-04-04 10:58:06 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 10:58:07 INFO  | [AUTH] path: /view/chatView
+25-04-04 10:58:07 INFO  | [AUTH] path: /view/chatView
+25-04-04 10:58:07 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 10:58:07 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:07:22 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:07:22 ERROR | [9514be16-116]  500 Server Error for HTTP GET "/api/chat/history?roomId=room1&offset=30"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8081
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/api/chat/history?roomId=room1&offset=30" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-04 11:11:44 INFO  | [AUTH] path: /view/chatListView
+25-04-04 11:11:44 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 11:11:46 INFO  | [AUTH] path: /view/chatListView
+25-04-04 11:11:46 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 11:31:38 INFO  | [AUTH] path: /view/chatListView
+25-04-04 11:31:38 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 11:31:38 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-04 11:32:06 INFO  | [AUTH] path: /
+25-04-04 11:32:06 ERROR | [654eb99c-122]  500 Server Error for HTTP GET "/"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8081
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-04 11:32:14 INFO  | [AUTH] path: /
+25-04-04 11:32:15 INFO  | [AUTH] path: /login
+25-04-04 11:32:15 INFO  | [AUTH] path: /view/chatListView
+25-04-04 11:32:15 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 11:32:16 INFO  | [AUTH] path: /view/chatListView
+25-04-04 11:32:16 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 11:32:17 INFO  | [AUTH] path: /view/chatListView
+25-04-04 11:32:17 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 11:32:17 INFO  | [AUTH] path: /view/chatListView
+25-04-04 11:32:17 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 11:32:17 INFO  | [AUTH] path: /view/chatListView
+25-04-04 11:32:17 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 11:32:17 INFO  | [AUTH] path: /view/chatListView
+25-04-04 11:32:18 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 11:32:19 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:32:19 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:32:19 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:32:19 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:32:21 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:32:55 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:32:55 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:32:55 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:32:55 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:32:56 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:32:58 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:33:04 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:33:04 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:33:04 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:33:04 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:33:06 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:33:06 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:33:30 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:33:30 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:33:30 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:33:30 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:33:31 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:33:36 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:35:04 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:35:04 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:35:04 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:35:04 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:35:06 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:35:09 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:36:46 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:36:46 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:36:46 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:36:46 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:36:48 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:36:49 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:38:06 ERROR | Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: reactor.netty.channel.AbortedException: io.netty.channel.StacklessClosedChannelException
+Caused by: reactor.netty.channel.AbortedException: io.netty.channel.StacklessClosedChannelException
+	at reactor.netty.FutureMono$FutureSubscription.wrapError(FutureMono.java:202)
+	at reactor.netty.FutureMono$FutureSubscription.operationComplete(FutureMono.java:193)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:997)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(AbstractChannel.java:858)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.write(DefaultChannelPipeline.java:1314)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:889)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868)
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:113)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956)
+	at io.netty.channel.AbstractChannelHandlerContext$WriteTask.run(AbstractChannelHandlerContext.java:1263)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+25-04-04 11:38:20 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:38:20 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:38:21 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:38:21 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:38:22 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:38:22 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:39:19 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:39:19 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:39:19 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:39:19 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:39:19 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:39:19 INFO  | [AUTH] path: /view/chatView
+25-04-04 11:39:19 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:39:19 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 11:39:21 INFO  | [AUTH] path: /api/chat/history
+25-04-04 11:39:21 INFO  | [AUTH] path: /api/chat/history
+25-04-04 12:45:34 INFO  | [AUTH] path: /view/chatView
+25-04-04 12:45:34 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 12:45:34 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-04 12:45:34 INFO  | [AUTH] path: /view/chatView
+25-04-04 12:45:34 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 12:45:34 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-04 12:45:34 INFO  | [AUTH] path: /login
+25-04-04 12:45:34 INFO  | [AUTH] path: /view/chatListView
+25-04-04 12:45:35 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 12:45:35 INFO  | [AUTH] path: /view/chatView
+25-04-04 12:45:35 INFO  | [AUTH] path: /view/chatView
+25-04-04 12:45:36 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 12:45:36 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 12:45:41 INFO  | [AUTH] path: /api/chat/history
+25-04-04 12:45:41 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:00:54 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:00:54 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:00:54 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:00:54 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:00:55 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:00:55 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:00:57 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:00:57 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:00:57 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:00:57 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:01:04 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:06:01 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:06:01 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:06:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:06:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:06:03 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:06:03 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:09:44 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:09:44 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:09:45 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:09:45 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:09:46 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:09:46 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:09:46 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:09:47 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:09:53 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:09:53 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:09:53 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:09:53 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:09:54 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:09:57 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:10:00 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:10:01 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:02 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:02 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:03 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:03 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:03 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:05 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:06 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:06 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:09 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:09 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:09 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:09 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:09 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:10 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:11 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:11 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:13 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:13 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:13 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:13 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:13 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:16 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:16 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:16 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:16 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:16 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:22 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:22 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:22 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:22 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:22 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:24 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:28 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:28 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:28 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:28 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:28 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:12:39 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:39 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:12:40 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:40 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:12:40 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:13:29 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:13:29 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:13:29 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:13:29 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:15:44 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:15:44 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 13:15:44 WARN  | [AUTH] accessToken/refreshToken 모두 userId 추출 실패
+25-04-04 13:15:44 INFO  | [AUTH] path: /login
+25-04-04 13:16:09 INFO  | [AUTH] path: /loginProc
+25-04-04 13:16:11 INFO  | [AUTH] path: /view/chatListView
+25-04-04 13:16:11 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 13:16:12 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:16:12 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:16:12 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:16:12 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:16:16 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:16:16 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:16:16 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:16:16 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:16:16 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:16:17 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:16:17 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:16:17 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:16:17 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:16:17 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:17:30 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:17:30 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:17:31 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:17:31 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:17:31 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:18:01 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:18:01 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:18:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:18:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:18:02 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:18:13 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:18:15 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:18:16 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:18:26 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:18:26 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:18:26 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:18:26 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:18:26 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:18:36 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:18:36 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:18:37 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:18:40 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:18:40 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:18:40 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:18:40 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:18:40 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:21:02 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:21:03 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:21:03 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:21:07 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:21:07 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:21:07 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:21:07 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:21:08 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:21:29 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:21:29 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:21:29 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:21:29 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:21:33 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:21:38 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:21:38 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:21:38 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:21:42 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:21:42 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:21:56 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:21:56 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:21:56 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:21:58 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:21:58 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:21:58 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:21:58 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:21:58 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:22:00 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:22:03 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:22:03 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:22:13 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:22:13 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:22:13 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:22:13 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:22:13 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:22:15 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:22:17 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:22:18 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:00 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:00 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:01 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:01 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:01 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:04 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:05 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:06 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:07 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:07 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:07 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:07 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:07 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:08 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:09 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:09 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:11 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:11 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:11 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:11 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:11 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:14 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:14 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:15 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:16 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:16 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:16 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:16 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:16 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:17 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:18 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:18 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:21 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:21 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:22 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:22 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:22 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:26 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:26 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 13:23:26 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-04 13:23:26 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:26 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 13:23:26 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-04 13:23:26 INFO  | [AUTH] path: /login
+25-04-04 13:23:26 INFO  | [AUTH] path: /view/chatListView
+25-04-04 13:23:26 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 13:23:27 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:27 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:27 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:27 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:27 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:28 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:28 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:23:28 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:28 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:23:28 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:30 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:31 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:23:31 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:28:43 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:28:43 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:28:44 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:28:44 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:28:44 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:28:46 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:28:47 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:28:47 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:29:51 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:29:51 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:29:52 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:29:52 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:29:54 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:29:55 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:29:56 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:29:56 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:31:32 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:31:32 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:31:33 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:31:33 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:31:35 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:31:37 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:31:37 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:31:37 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:32:06 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:32:06 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:32:07 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:32:07 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:32:09 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:32:10 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:32:11 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:32:11 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:33:21 ERROR | Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: reactor.netty.channel.AbortedException: io.netty.channel.StacklessClosedChannelException
+Caused by: reactor.netty.channel.AbortedException: io.netty.channel.StacklessClosedChannelException
+	at reactor.netty.FutureMono$FutureSubscription.wrapError(FutureMono.java:202)
+	at reactor.netty.FutureMono$FutureSubscription.operationComplete(FutureMono.java:193)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:997)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(AbstractChannel.java:858)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.write(DefaultChannelPipeline.java:1314)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:889)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868)
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:113)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956)
+	at io.netty.channel.AbstractChannelHandlerContext$WriteTask.run(AbstractChannelHandlerContext.java:1263)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source)
+25-04-04 13:33:31 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:33:31 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:33:32 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:33:32 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:35:55 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:35:55 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:35:56 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:35:56 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:35:57 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:35:59 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:36:00 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:36:01 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:36:02 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:36:02 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:36:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:36:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:36:05 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:36:05 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:36:07 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:36:10 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:36:13 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:36:13 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:36:13 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:36:13 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:36:15 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:36:15 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:38:56 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:38:56 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:38:56 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:38:56 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:38:58 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:38:58 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:39:00 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:39:00 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:39:00 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:39:00 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:39:42 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:39:42 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:39:42 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:39:42 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:39:42 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:39:42 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:39:43 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:39:43 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:40:50 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:43:10 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:43:10 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:43:37 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:43:37 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 13:43:37 WARN  | [AUTH] accessToken/refreshToken 모두 userId 추출 실패
+25-04-04 13:43:37 INFO  | [AUTH] path: /login
+25-04-04 13:43:39 INFO  | [AUTH] path: /loginProc
+25-04-04 13:43:41 INFO  | [AUTH] path: /view/chatListView
+25-04-04 13:43:41 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 13:43:43 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:43:43 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:43:49 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:43:49 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:44:16 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:44:16 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:44:16 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:44:16 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:44:18 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:44:20 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:44:20 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:44:20 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:44:21 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:44:21 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:44:21 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:44:21 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:44:24 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:44:24 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:44:25 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:44:25 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:44:28 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:44:28 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:44:28 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:44:28 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:44:40 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:44:40 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:44:40 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:44:40 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:44:59 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:44:59 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:45:06 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:45:06 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:45:06 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:45:06 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:45:07 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:45:07 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:45:07 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:45:07 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:45:41 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:45:41 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:45:58 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:45:58 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:49:01 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:49:01 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:49:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:49:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:49:02 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:49:05 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:49:06 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:49:07 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:49:10 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:49:10 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:49:10 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:49:10 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:49:10 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:49:12 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:49:21 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:49:21 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:49:21 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:49:21 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:49:21 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:49:35 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:49:35 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:49:36 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:49:36 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:49:36 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:49:38 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:49:38 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:49:38 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:49:38 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:49:38 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:50:18 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-04 13:50:18 INFO  | Starting ChatGatewayApplication using Java 17 with PID 20896 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-04 13:50:18 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-04 13:50:19 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-04 13:50:19 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-04 13:50:19 INFO  | Finished Spring Data repository scanning in 24 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-04 13:50:19 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-04 13:50:19 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-04 13:50:19 INFO  | Finished Spring Data repository scanning in 8 ms. Found 0 R2DBC repository interfaces.
+25-04-04 13:50:19 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-04 13:50:19 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-04 13:50:19 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-04-04 13:50:19 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-04 13:50:22 INFO  | Cannot determine local hostname
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [After]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-04 13:50:23 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-04 13:50:23 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-04 13:50:23 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-04 13:50:23 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@bb6869a, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@506b083, com.mongodb.Jep395RecordCodecProvider@5eee3da9, com.mongodb.KotlinCodecProvider@ace2408]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-04 13:50:23 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=73117600, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=199}, lastWriteDate=Fri Apr 04 13:50:21 KST 2025, lastUpdateTimeNanos=2420535588140700}
+25-04-04 13:50:23 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=73140000, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=7fffffff0000000000000043, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=53}, lastWriteDate=Fri Apr 04 13:50:21 KST 2025, lastUpdateTimeNanos=2420535588145200}
+25-04-04 13:50:23 INFO  | Discovered replica set primary localhost:27018 with max election id 7fffffff0000000000000043 and max set version 3
+25-04-04 13:50:25 INFO  | Cannot determine local hostname
+25-04-04 13:50:25 INFO  | Netty started on port 80 (http)
+25-04-04 13:50:27 INFO  | Cannot determine local hostname
+25-04-04 13:50:27 INFO  | [AUTH] path: /
+25-04-04 13:50:27 INFO  | [AUTH] path: /login
+25-04-04 13:50:27 INFO  | [AUTH] path: /view/chatListView
+25-04-04 13:50:28 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 13:50:28 INFO  | Cannot determine local hostname
+25-04-04 13:50:28 INFO  | Started ChatGatewayApplication in 12.99 seconds (process running for 14.225)
+25-04-04 13:50:29 INFO  | [AUTH] path: /view/chatListView
+25-04-04 13:50:30 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 13:50:30 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:50:30 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:50:30 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:50:30 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:50:30 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:50:38 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:50:38 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:50:38 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:50:38 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:50:38 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:50:46 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:50:46 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:50:46 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:50:46 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:50:46 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:51:49 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:51:49 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:51:50 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:51:50 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:51:50 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:51:58 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:51:58 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:51:59 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:51:59 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:51:59 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:51:59 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:51:59 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:52:00 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:52:00 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:52:00 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:52:03 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:52:03 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:52:03 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:52:03 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:52:03 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:52:38 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:52:38 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:52:39 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:52:39 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:52:39 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:52:41 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:52:41 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:53:00 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:53:00 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:53:00 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:53:00 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:53:00 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:53:00 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:53:00 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:53:00 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:53:00 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:53:03 ERROR | Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.io.IOException: Connection reset by peer
+Caused by: java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:76)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:414)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:929)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:359)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:893)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1319)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:935)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:921)
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:907)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:939)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:957)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000)
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974)
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305)
+	at reactor.netty.http.client.WebsocketClientOperations.lambda$sendClose$1(WebsocketClientOperations.java:246)
+	at reactor.netty.FutureMono$DeferredFutureMono.subscribe(FutureMono.java:100)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onNext(FluxFilter.java:113)
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onNext(FluxMap.java:224)
+	at reactor.core.publisher.FluxFirstWithSignal$FirstEmittingSubscriber.onNext(FluxFirstWithSignal.java:333)
+	at reactor.core.publisher.Operators$MonoInnerProducerBase.complete(Operators.java:2834)
+	at reactor.core.publisher.SinkOneMulticast.tryEmitValue(SinkOneMulticast.java:66)
+	at reactor.netty.http.server.WebsocketServerOperations.sendCloseNow(WebsocketServerOperations.java:289)
+	at reactor.netty.http.server.WebsocketServerOperations.onInboundCancel(WebsocketServerOperations.java:222)
+	at reactor.netty.channel.FluxReceive.unsubscribeReceiver(FluxReceive.java:508)
+	at reactor.netty.channel.FluxReceive.lambda$new$0(FluxReceive.java:89)
+	at reactor.netty.channel.FluxReceive.cancelReceiver(FluxReceive.java:199)
+	at reactor.netty.channel.FluxReceive.doCancel(FluxReceive.java:205)
+	at reactor.netty.channel.FluxReceive.cancel(FluxReceive.java:105)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.cancel(FluxFilter.java:191)
+	at reactor.core.publisher.FluxMap$MapSubscriber.cancel(FluxMap.java:169)
+	at reactor.core.publisher.FluxMap$MapSubscriber.cancel(FluxMap.java:169)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxMap$MapSubscriber.cancel(FluxMap.java:169)
+	at reactor.core.publisher.Operators.terminate(Operators.java:1328)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.cancel(MonoSendMany.java:168)
+	at reactor.core.publisher.Operators.terminate(Operators.java:1328)
+	at reactor.core.publisher.MonoZip$ZipInner.cancel(MonoZip.java:548)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.cancelExcept(MonoZip.java:322)
+	at reactor.core.publisher.MonoZip$ZipInner.onError(MonoZip.java:515)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.run(MonoSendMany.java:352)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.trySchedule(MonoSendMany.java:434)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.onError(MonoSendMany.java:199)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onError(FluxFilter.java:157)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:478)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:273)
+	at reactor.netty.channel.FluxReceive.onInboundError(FluxReceive.java:466)
+	at reactor.netty.channel.ChannelOperations.onInboundError(ChannelOperations.java:526)
+	at reactor.netty.channel.ChannelOperationsHandler.exceptionCaught(ChannelOperationsHandler.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-04 13:58:35 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-04 13:58:35 INFO  | Starting ChatGatewayApplication using Java 17 with PID 33404 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-04 13:58:35 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-04 13:58:37 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-04 13:58:37 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-04 13:58:37 INFO  | Finished Spring Data repository scanning in 28 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-04 13:58:37 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-04 13:58:37 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-04 13:58:37 INFO  | Finished Spring Data repository scanning in 10 ms. Found 0 R2DBC repository interfaces.
+25-04-04 13:58:37 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-04 13:58:37 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-04 13:58:37 INFO  | Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+25-04-04 13:58:38 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-04 13:58:42 INFO  | Cannot determine local hostname
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [After]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-04 13:58:42 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-04 13:58:43 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-04 13:58:43 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-04 13:58:43 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@2b1d1a5, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@41e7a544, com.mongodb.Jep395RecordCodecProvider@3b66ac74, com.mongodb.KotlinCodecProvider@573870cb]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-04 13:58:43 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=109229400, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=7fffffff0000000000000043, setVersion=3, topologyVersion=TopologyVersion{processId=67e092e3632775f5b1fe3eec, counter=53}, lastWriteDate=Fri Apr 04 13:58:42 KST 2025, lastUpdateTimeNanos=2421035452737100}
+25-04-04 13:58:43 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=109423500, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67ca75f6955a0ae21cfcdf5a, counter=199}, lastWriteDate=Fri Apr 04 13:58:42 KST 2025, lastUpdateTimeNanos=2421035451926800}
+25-04-04 13:58:43 INFO  | Discovered replica set primary localhost:27018 with max election id 7fffffff0000000000000043 and max set version 3
+25-04-04 13:58:46 INFO  | Cannot determine local hostname
+25-04-04 13:58:46 INFO  | Netty started on port 80 (http)
+25-04-04 13:58:47 INFO  | Cannot determine local hostname
+25-04-04 13:58:49 INFO  | Cannot determine local hostname
+25-04-04 13:58:49 INFO  | Started ChatGatewayApplication in 16.395 seconds (process running for 17.026)
+25-04-04 13:58:55 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:58:55 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:58:56 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:58:56 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:58:56 INFO  | [AUTH] path: /api/chat/history
+25-04-04 13:59:00 INFO  | [AUTH] path: /
+25-04-04 13:59:00 INFO  | [AUTH] path: /login
+25-04-04 13:59:00 INFO  | [AUTH] path: /view/chatListView
+25-04-04 13:59:01 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 13:59:02 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:59:02 INFO  | [AUTH] path: /view/chatView
+25-04-04 13:59:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:59:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 13:59:02 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:00:02 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:00:02 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:00:03 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:00:03 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:00:03 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:01:42 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:01:42 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 14:01:42 WARN  | [AUTH] accessToken/refreshToken 모두 userId 추출 실패
+25-04-04 14:01:42 INFO  | [AUTH] path: /login
+25-04-04 14:01:44 INFO  | [AUTH] path: /loginProc
+25-04-04 14:01:45 INFO  | [AUTH] path: /view/chatListView
+25-04-04 14:01:46 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 14:01:47 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:01:47 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:01:47 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:01:47 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:01:49 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:01:49 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:01:49 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:01:49 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:01:51 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:00 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:02:00 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:02:01 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:02:01 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:02:01 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:01 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:04 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:04 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:04 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:04 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:02:04 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:02:05 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:02:05 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:02:06 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:06 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:37 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:02:37 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:02:37 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:02:37 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:02:45 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:45 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:47 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:47 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:02:48 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:04:01 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:04:01 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:04:01 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:04:01 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:04:03 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:04:03 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:04:03 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:04:03 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:04:05 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:04:11 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:04:11 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:04:12 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:04:12 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:04:12 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:04:12 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:04:15 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:05:36 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:05:36 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:05:36 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:05:36 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:05:37 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:05:37 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:05:39 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:05:40 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:05:40 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:05:40 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:05:40 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:05:41 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:05:41 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:08:19 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:08:19 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:08:20 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:08:20 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:08:20 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:08:24 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:08:28 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:08:30 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:08:31 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:09:35 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:09:35 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:09:36 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:09:36 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:09:41 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:09:41 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:09:41 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:09:41 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:10:06 ERROR | Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.io.IOException: Connection reset by peer
+Caused by: java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:76)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:414)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:929)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:359)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:893)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1319)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:935)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:921)
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:907)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:939)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:957)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000)
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974)
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305)
+	at reactor.netty.http.client.WebsocketClientOperations.lambda$sendClose$1(WebsocketClientOperations.java:246)
+	at reactor.netty.FutureMono$DeferredFutureMono.subscribe(FutureMono.java:100)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onNext(FluxFilter.java:113)
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onNext(FluxMap.java:224)
+	at reactor.core.publisher.FluxFirstWithSignal$FirstEmittingSubscriber.onNext(FluxFirstWithSignal.java:333)
+	at reactor.core.publisher.Operators$MonoInnerProducerBase.complete(Operators.java:2834)
+	at reactor.core.publisher.SinkOneMulticast.tryEmitValue(SinkOneMulticast.java:66)
+	at reactor.netty.http.server.WebsocketServerOperations.sendCloseNow(WebsocketServerOperations.java:289)
+	at reactor.netty.http.server.WebsocketServerOperations.onInboundCancel(WebsocketServerOperations.java:222)
+	at reactor.netty.channel.FluxReceive.unsubscribeReceiver(FluxReceive.java:508)
+	at reactor.netty.channel.FluxReceive.lambda$new$0(FluxReceive.java:89)
+	at reactor.netty.channel.FluxReceive.cancelReceiver(FluxReceive.java:199)
+	at reactor.netty.channel.FluxReceive.doCancel(FluxReceive.java:205)
+	at reactor.netty.channel.FluxReceive.cancel(FluxReceive.java:105)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.cancel(FluxFilter.java:191)
+	at reactor.core.publisher.FluxMap$MapSubscriber.cancel(FluxMap.java:169)
+	at reactor.core.publisher.FluxMap$MapSubscriber.cancel(FluxMap.java:169)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxMap$MapSubscriber.cancel(FluxMap.java:169)
+	at reactor.core.publisher.Operators.terminate(Operators.java:1328)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.cancel(MonoSendMany.java:168)
+	at reactor.core.publisher.Operators.terminate(Operators.java:1328)
+	at reactor.core.publisher.MonoZip$ZipInner.cancel(MonoZip.java:548)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.cancelExcept(MonoZip.java:322)
+	at reactor.core.publisher.MonoZip$ZipInner.onError(MonoZip.java:515)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.run(MonoSendMany.java:352)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.trySchedule(MonoSendMany.java:434)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.onError(MonoSendMany.java:199)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onError(FluxFilter.java:157)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:478)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:273)
+	at reactor.netty.channel.FluxReceive.onInboundError(FluxReceive.java:466)
+	at reactor.netty.channel.ChannelOperations.onInboundError(ChannelOperations.java:526)
+	at reactor.netty.channel.ChannelOperationsHandler.exceptionCaught(ChannelOperationsHandler.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-04 14:10:17 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:10:17 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:10:18 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:10:18 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:10:18 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:12:24 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:12:24 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:12:25 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:12:25 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:12:48 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:12:48 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:12:48 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:12:48 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:12:48 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:12:54 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:12:54 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:12:54 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:12:54 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:12:54 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:13:20 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:14:11 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:14:11 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 14:14:11 WARN  | [AUTH] accessToken/refreshToken 모두 userId 추출 실패
+25-04-04 14:14:11 INFO  | [AUTH] path: /login
+25-04-04 14:14:17 INFO  | [AUTH] path: /login
+25-04-04 14:14:18 INFO  | [AUTH] path: /loginProc
+25-04-04 14:14:18 INFO  | [AUTH] path: /loginProc
+25-04-04 14:14:19 INFO  | [AUTH] path: /view/chatListView
+25-04-04 14:14:19 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 14:14:20 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:14:20 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:14:20 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:14:20 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:14:20 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:14:51 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:14:51 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:14:52 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:14:52 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:14:52 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:14:55 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:14:57 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:14:59 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:15:00 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:15:11 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:15:11 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:15:11 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:15:11 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:15:11 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:15:15 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:15:18 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:15:21 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:15:43 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:15:43 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:15:44 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:15:44 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:15:44 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:15:46 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:15:48 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:15:50 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:15:51 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:16:37 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:16:37 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:16:38 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:16:38 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:16:38 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:16:42 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:16:43 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:16:44 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:16:44 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:17:13 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:17:13 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:17:14 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:17:14 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:17:15 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:17:16 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:17:17 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:17:17 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:17:17 INFO  | [AUTH] path: /api/chat/history
+25-04-04 14:17:30 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:17:30 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 14:17:30 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-04 14:17:30 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:17:30 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 14:17:30 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-04 14:17:30 INFO  | [AUTH] path: /login
+25-04-04 14:17:30 INFO  | [AUTH] path: /view/chatListView
+25-04-04 14:17:30 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 14:17:31 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:17:31 INFO  | [AUTH] path: /view/chatView
+25-04-04 14:17:31 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:17:31 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 14:17:32 INFO  | [AUTH] path: /api/chat/history
+25-04-04 15:42:03 INFO  | [AUTH] path: /view/chatView
+25-04-04 15:42:03 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 15:42:03 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-04 15:42:03 INFO  | [AUTH] path: /view/chatView
+25-04-04 15:42:03 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 15:42:03 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-04 15:42:03 INFO  | [AUTH] path: /login
+25-04-04 15:42:03 INFO  | [AUTH] path: /view/chatListView
+25-04-04 15:42:04 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 15:42:05 INFO  | [AUTH] path: /view/chatView
+25-04-04 15:42:05 INFO  | [AUTH] path: /view/chatView
+25-04-04 15:42:05 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 15:42:05 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 15:42:05 INFO  | [AUTH] path: /api/chat/history
+25-04-04 15:46:35 INFO  | [AUTH] path: /api/chat/history
+25-04-04 15:46:35 INFO  | [AUTH] path: /api/chat/history
+25-04-04 15:46:36 INFO  | [AUTH] path: /api/chat/history
+25-04-04 15:46:36 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:34:38 INFO  | [AUTH] path: /view/chatListView
+25-04-04 16:34:38 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 16:34:38 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-04 16:34:51 INFO  | [AUTH] path: /
+25-04-04 16:34:51 INFO  | [AUTH] path: /login
+25-04-04 16:34:51 INFO  | [AUTH] path: /view/chatListView
+25-04-04 16:34:52 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 16:34:52 INFO  | [AUTH] path: /view/chatView
+25-04-04 16:34:52 INFO  | [AUTH] path: /view/chatView
+25-04-04 16:34:53 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 16:34:53 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 16:34:53 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:34:54 INFO  | [AUTH] path: /view/chatListView
+25-04-04 16:34:54 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 16:34:55 INFO  | [AUTH] path: /view/chatView
+25-04-04 16:34:55 INFO  | [AUTH] path: /view/chatView
+25-04-04 16:34:55 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 16:34:55 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 16:34:55 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:34:58 INFO  | [AUTH] path: /view/chatView
+25-04-04 16:34:58 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 16:34:58 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-04 16:34:58 INFO  | [AUTH] path: /view/chatView
+25-04-04 16:34:58 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-04 16:34:58 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-04 16:34:58 INFO  | [AUTH] path: /login
+25-04-04 16:34:58 INFO  | [AUTH] path: /view/chatListView
+25-04-04 16:34:58 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 16:34:59 INFO  | [AUTH] path: /view/chatListView
+25-04-04 16:34:59 INFO  | [AUTH] path: /api/chatList/list
+25-04-04 16:35:07 INFO  | [AUTH] path: /view/chatView
+25-04-04 16:35:07 INFO  | [AUTH] path: /view/chatView
+25-04-04 16:35:08 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 16:35:08 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 16:35:08 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:35:10 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:35:10 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:35:11 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:35:11 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:46:11 INFO  | [AUTH] path: /view/chatView
+25-04-04 16:46:11 INFO  | [AUTH] path: /view/chatView
+25-04-04 16:46:11 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 16:46:11 INFO  | [AUTH] path: /ws/chat/room1
+25-04-04 16:46:11 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:46:13 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:46:14 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:46:14 INFO  | [AUTH] path: /api/chat/history
+25-04-04 16:46:14 INFO  | [AUTH] path: /api/chat/history

@@ -1,0 +1,2265 @@
+25-04-09 08:51:30 INFO  | [AUTH] path: /logout
+25-04-09 08:51:31 INFO  | [AUTH] path: /login
+25-04-09 08:51:32 INFO  | [AUTH] path: /loginProc
+25-04-09 08:51:32 INFO  | [AUTH] path: /view/chatListView
+25-04-09 08:51:33 INFO  | [AUTH] path: /view/chatView
+25-04-09 08:51:33 INFO  | [AUTH] path: /view/chatView
+25-04-09 08:51:34 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 08:51:34 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 08:51:34 INFO  | [AUTH] path: /api/chat/history
+25-04-09 08:51:36 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:00:02 INFO  | [AUTH] path: /view/chatView
+25-04-09 09:00:02 INFO  | [AUTH] path: /view/chatView
+25-04-09 09:00:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 09:00:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 09:00:02 INFO  | [AUTH] path: /api/chat/history
+25-04-09 09:03:17 INFO  | [AUTH] path: /view/chatView
+25-04-09 09:03:17 INFO  | [AUTH] path: /view/chatView
+25-04-09 09:03:17 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 09:03:17 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 09:03:17 INFO  | [AUTH] path: /api/chat/history
+25-04-09 09:05:51 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:05:52 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:06:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:06:00 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 09:06:00 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-09 09:06:02 INFO  | [AUTH] path: /view/chatView
+25-04-09 09:06:02 INFO  | [AUTH] path: /view/chatView
+25-04-09 09:06:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 09:06:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 09:06:02 INFO  | [AUTH] path: /api/chat/history
+25-04-09 09:06:03 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:06:07 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:06:10 INFO  | [AUTH] path: /view/chatView
+25-04-09 09:06:10 INFO  | [AUTH] path: /view/chatView
+25-04-09 09:06:10 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 09:06:10 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 09:06:10 INFO  | [AUTH] path: /api/chat/history
+25-04-09 09:22:20 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:22:20 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 09:22:20 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:22:50 INFO  | [AUTH] path: /logout
+25-04-09 09:22:50 INFO  | [AUTH] path: /login
+25-04-09 09:22:51 INFO  | [AUTH] path: /loginProc
+25-04-09 09:22:52 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:22:55 INFO  | [AUTH] path: /view/chatView
+25-04-09 09:22:55 INFO  | [AUTH] path: /view/chatView
+25-04-09 09:22:55 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 09:22:55 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 09:22:55 INFO  | [AUTH] path: /api/chat/history
+25-04-09 09:23:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:23:18 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:23:18 ERROR | [91cabd98-78]  500 Server Error for HTTP GET "/view/chatListView"
+java.lang.IllegalArgumentException: CharSequence cannot be null or empty.
+	at io.jsonwebtoken.lang.Assert.hasText(Assert.java:151)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.jsonwebtoken.lang.Assert.hasText(Assert.java:151)
+		at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:28)
+		at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94)
+		at kr.co.dataric.common.jwt.provider.JwtProvider.isTokenExpired(JwtProvider.java:75)
+		at kr.co.dataric.gateway.filter.AuthenticationGatewayFilterFactory.lambda$apply$3(AuthenticationGatewayFilterFactory.java:66)
+		at org.springframework.cloud.gateway.filter.OrderedGatewayFilter.filter(OrderedGatewayFilter.java:44)
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain.lambda$filter$0(FilteringWebHandler.java:127)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:45)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:265)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:265)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:259)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:865)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:259)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:865)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:136)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2571)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:183)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2367)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onSubscribe(FluxOnErrorResume.java:74)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onSubscribe(MonoPeekTerminal.java:152)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onSubscribe(MonoFilterWhen.java:100)
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:207)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerComplete(FluxConcatMapNoPrefetch.java:275)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onComplete(FluxConcatMap.java:889)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2231)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:141)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2571)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:183)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:339)
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:339)
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2367)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2241)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:265)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55)
+		at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1176)
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:716)
+		at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:481)
+		at reactor.netty.http.server.HttpServerOperations.handleDefaultHttpRequest(HttpServerOperations.java:864)
+		at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:790)
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:262)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 09:23:57 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:23:57 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:23:57 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:24:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:24:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:24:35 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:24:35 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:26:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:26:38 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:26:38 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:26:38 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:29:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:29:22 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:29:22 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:31:59 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:32:10 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:32:10 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:32:10 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:50:02 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:50:12 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:50:12 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:50:12 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:50:13 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:50:13 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:50:13 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:50:18 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:50:18 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:50:18 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:50:26 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:50:26 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:50:26 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:50:27 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:50:27 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:50:27 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:50:32 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:50:32 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:50:32 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:51:02 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:51:02 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:51:02 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:52:02 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:52:02 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:52:02 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:53:29 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:29 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:53:29 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:53:30 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:30 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:53:30 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:53:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:35 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:53:35 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:53:46 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:46 ERROR | [182069b5-99]  500 Server Error for HTTP GET "/view/chatListView"
+java.lang.IllegalArgumentException: CharSequence cannot be null or empty.
+	at io.jsonwebtoken.lang.Assert.hasText(Assert.java:151)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.jsonwebtoken.lang.Assert.hasText(Assert.java:151)
+		at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:28)
+		at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94)
+		at kr.co.dataric.common.jwt.provider.JwtProvider.isTokenExpired(JwtProvider.java:75)
+		at kr.co.dataric.gateway.filter.AuthenticationGatewayFilterFactory.lambda$apply$3(AuthenticationGatewayFilterFactory.java:66)
+		at org.springframework.cloud.gateway.filter.OrderedGatewayFilter.filter(OrderedGatewayFilter.java:44)
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain.lambda$filter$0(FilteringWebHandler.java:127)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:45)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:265)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:265)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:259)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:865)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:259)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:865)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:136)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2571)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:183)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2367)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onSubscribe(FluxOnErrorResume.java:74)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onSubscribe(MonoPeekTerminal.java:152)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onSubscribe(MonoFilterWhen.java:100)
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:207)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerComplete(FluxConcatMapNoPrefetch.java:275)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onComplete(FluxConcatMap.java:889)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2231)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:141)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2571)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:183)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:339)
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:339)
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2367)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2241)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:265)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55)
+		at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1176)
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:716)
+		at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:481)
+		at reactor.netty.http.server.HttpServerOperations.handleDefaultHttpRequest(HttpServerOperations.java:864)
+		at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:790)
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:262)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 09:53:51 INFO  | [AUTH] path: /
+25-04-09 09:53:56 INFO  | [AUTH] path: /logout
+25-04-09 09:53:56 INFO  | [AUTH] path: /login
+25-04-09 09:53:57 INFO  | [AUTH] path: /loginProc
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:59 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:59 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:59 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:59 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:59 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:59 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:59 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:59 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:53:59 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:54:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:55:09 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:56:33 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:56:41 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:56:41 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:56:41 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:56:42 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:56:42 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:56:42 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:56:47 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:56:47 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:56:47 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:57:17 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:57:17 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:57:17 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:58:17 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:58:17 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:58:17 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:58:54 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:58:54 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:58:54 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:58:55 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:58:55 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:58:55 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:59:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:59:00 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:59:00 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 09:59:30 INFO  | [AUTH] path: /view/chatListView
+25-04-09 09:59:30 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 09:59:30 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 10:00:05 INFO  | [AUTH] path: /
+25-04-09 10:00:05 INFO  | [AUTH] path: /login
+25-04-09 10:00:05 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:04:10 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:04:18 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:04:18 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 10:04:18 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 10:04:19 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:04:19 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 10:04:19 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 10:04:25 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:04:25 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 10:04:25 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 10:04:55 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:04:55 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 10:04:55 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 10:05:55 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:05:55 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 10:05:55 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 10:05:55 ERROR | [c988378f-202] 500 Server Error for HTTP GET "/view/chatListView"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8082
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 10:06:38 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:06:38 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 10:06:38 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 10:06:41 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:51:29 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:51:29 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 10:51:29 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 10:51:43 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:51:47 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:51:48 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:51:49 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:51:53 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:51:53 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 10:51:53 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 10:51:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:52:07 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:52:07 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 10:52:08 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 10:57:09 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:57:31 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:57:40 INFO  | [AUTH] path: /view/chatListView
+25-04-09 10:57:40 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 10:57:40 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:00:24 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:00:24 ERROR | [54f090e0-216]  500 Server Error for HTTP GET "/view/chatListView"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8082
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 11:00:26 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:00:30 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:00:30 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:00:30 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:00:31 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:00:31 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:00:31 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:00:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:00:35 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:00:35 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:00:36 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:00:36 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:00:36 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:00:41 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:00:41 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:00:41 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:01:11 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:01:11 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:01:11 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:02:11 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:02:11 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:02:11 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:02:33 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:02:33 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:02:33 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:02:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:02:35 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:02:35 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:02:40 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:02:40 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:02:40 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:02:56 INFO  | [AUTH] path: /logout
+25-04-09 11:02:57 INFO  | [AUTH] path: /login
+25-04-09 11:02:58 INFO  | [AUTH] path: /loginProc
+25-04-09 11:03:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:05:47 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:08:47 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:09:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:09:45 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:09:45 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:09:45 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:09:47 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:09:47 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:09:47 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:09:52 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:09:52 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:09:52 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:10:10 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:10:10 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:10:10 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:10:15 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:10:15 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:10:15 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:10:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:10:22 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:10:22 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:12:20 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:12:20 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:12:20 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:12:21 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:12:21 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:12:21 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:12:26 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:12:26 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:12:26 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:12:34 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:12:34 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:12:34 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:12:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:12:35 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:12:35 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:12:40 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:12:40 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:12:40 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:13:10 INFO  | [AUTH] path: /logout
+25-04-09 11:13:10 INFO  | [AUTH] path: /login
+25-04-09 11:13:11 INFO  | [AUTH] path: /loginProc
+25-04-09 11:13:11 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:13:17 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:13:17 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:13:17 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:13:18 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:13:18 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:13:18 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:13:23 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:13:23 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:13:23 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:13:53 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:13:53 ERROR | [3c3ec6d8-254]  500 Server Error for HTTP GET "/view/chatListView"
+java.lang.IllegalArgumentException: CharSequence cannot be null or empty.
+	at io.jsonwebtoken.lang.Assert.hasText(Assert.java:151)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at io.jsonwebtoken.lang.Assert.hasText(Assert.java:151)
+		at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:28)
+		at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94)
+		at kr.co.dataric.common.jwt.provider.JwtProvider.isTokenExpired(JwtProvider.java:75)
+		at kr.co.dataric.gateway.filter.AuthenticationGatewayFilterFactory.lambda$apply$3(AuthenticationGatewayFilterFactory.java:66)
+		at org.springframework.cloud.gateway.filter.OrderedGatewayFilter.filter(OrderedGatewayFilter.java:44)
+		at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain.lambda$filter$0(FilteringWebHandler.java:127)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:45)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:265)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:265)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:259)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:865)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:259)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:865)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:136)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2571)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:183)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2367)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onSubscribe(FluxOnErrorResume.java:74)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onSubscribe(MonoPeekTerminal.java:152)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onSubscribe(MonoFilterWhen.java:100)
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:207)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerComplete(FluxConcatMapNoPrefetch.java:275)
+		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onComplete(FluxConcatMap.java:889)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:2231)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:141)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2571)
+		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:183)
+		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:339)
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2331)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:339)
+		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2367)
+		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2241)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:265)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+		at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55)
+		at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:1176)
+		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:716)
+		at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:481)
+		at reactor.netty.http.server.HttpServerOperations.handleDefaultHttpRequest(HttpServerOperations.java:864)
+		at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:790)
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:262)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 11:14:37 INFO  | [AUTH] path: /logout
+25-04-09 11:14:37 ERROR | [3c3ec6d8-255]  500 Server Error for HTTP GET "/logout"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8081
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/logout" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 11:14:47 INFO  | [AUTH] path: /logout
+25-04-09 11:14:48 INFO  | [AUTH] path: /login
+25-04-09 11:14:52 INFO  | [AUTH] path: /loginProc
+25-04-09 11:14:53 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:15:03 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:15:03 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:15:03 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:15:04 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:15:04 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:15:04 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:15:09 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:15:09 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:15:09 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:15:39 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:15:39 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:15:39 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:16:39 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:16:39 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:16:39 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:16:55 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:16:55 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:16:55 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:16:56 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:16:56 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:16:56 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:17:01 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:17:01 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:17:01 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:17:31 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:17:31 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:17:31 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:18:31 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:18:31 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:18:31 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:18:31 ERROR | [4a6e8fb2-269] 500 Server Error for HTTP GET "/view/chatListView"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8082
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 11:18:41 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:18:41 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:18:41 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:19:48 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:19:48 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:19:48 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:19:56 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:19:56 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:19:56 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:21:20 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:21:20 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:21:20 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:21:31 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:21:31 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:21:31 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:28:10 WARN  | [07e8de40-3, L:/127.0.0.1:63404 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 11:28:10 ERROR | [73015c9c-274] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 11:32:57 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:32:57 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:32:57 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:32:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:32:58 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:32:58 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:33:03 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:33:03 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:33:03 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:33:33 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:33:33 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:33:33 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:34:18 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:34:18 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:34:18 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:34:19 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:34:19 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:34:19 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:34:24 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:34:24 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:34:24 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:34:26 INFO  | [AUTH] path: /logout
+25-04-09 11:34:26 INFO  | [AUTH] path: /login
+25-04-09 11:34:27 INFO  | [AUTH] path: /loginProc
+25-04-09 11:34:27 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:34:30 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:34:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:35:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:35:35 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:35:35 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:35:36 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:35:36 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:35:36 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:35:40 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:35:40 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:35:40 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:35:41 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:35:41 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:35:41 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:35:46 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:35:46 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:35:46 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:35:47 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:35:47 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:35:47 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:35:52 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:35:52 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:35:52 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:36:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:36:22 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:36:22 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:37:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:37:22 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:37:22 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:42:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:42:22 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:42:22 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 11:52:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 11:52:22 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 11:52:22 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 12:22:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 12:22:22 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 12:22:22 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 12:52:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 12:52:22 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 12:52:22 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:00:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:00:00 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:00:00 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:00:01 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:00:01 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:00:01 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:00:02 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:00:02 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:00:02 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:00:03 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:00:03 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:00:03 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:00:08 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:00:08 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:00:08 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:00:38 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:00:38 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:00:38 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:01:09 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:01:09 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:01:09 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:01:11 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:01:11 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:01:11 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:01:16 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:01:16 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:01:16 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:01:31 INFO  | [AUTH] path: /logout
+25-04-09 13:01:31 INFO  | [AUTH] path: /login
+25-04-09 13:01:33 INFO  | [AUTH] path: /loginProc
+25-04-09 13:01:33 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:01:33 INFO  | [AUTH] path: /logout
+25-04-09 13:01:33 INFO  | [AUTH] path: /login
+25-04-09 13:01:36 INFO  | [AUTH] path: /loginProc
+25-04-09 13:01:36 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:01:36 INFO  | [AUTH] path: /logout
+25-04-09 13:01:36 INFO  | [AUTH] path: /login
+25-04-09 13:02:15 INFO  | [AUTH] path: /loginProc
+25-04-09 13:02:15 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:02:23 INFO  | [AUTH] path: /login
+25-04-09 13:02:23 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:02:28 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:02:39 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:02:39 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 13:02:39 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:02:40 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:02:40 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 13:02:40 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:02:45 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:02:45 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 13:02:45 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:03:15 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:03:15 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 13:03:15 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:04:15 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:04:15 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 13:04:15 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:05:43 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:05:43 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 13:05:43 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:05:56 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:05:56 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 13:05:56 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:07:36 WARN  | [27fec6cf-2, L:/127.0.0.1:59378 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:07:36 ERROR | [7236c562-331] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:07:50 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:07:50 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 13:07:50 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:08:04 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:08:04 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 13:08:04 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:11:07 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:11:07 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:11:07 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:11:07 ERROR | [1442e6b4-334] 500 Server Error for HTTP GET "/view/chatListView"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8082
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:11:17 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:11:17 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:11:17 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:11:26 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:11:26 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:11:26 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:13:51 WARN  | [5dac24d1-2, L:/127.0.0.1:59979 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:13:51 ERROR | [d8fd64f1-336] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:14:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:14:00 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:14:00 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:14:16 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:14:16 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:14:16 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:14:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:14:22 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:14:22 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:14:25 WARN  | [f42aa9d4-1, L:/127.0.0.1:60303 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:14:25 ERROR | [d1455abe-339] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:14:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:14:35 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:14:35 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:15:32 WARN  | [383bd63a-1, L:/127.0.0.1:60345 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:15:32 ERROR | [d1455abe-340] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:15:45 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:15:45 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:15:45 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:16:27 WARN  | [ad292c80-1, L:/127.0.0.1:60471 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:16:27 ERROR | [d1455abe-341] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:16:43 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:16:43 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:16:43 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:18:16 WARN  | [7ab66ebf-1, L:/127.0.0.1:60583 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:18:16 ERROR | [d1455abe-342] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:18:51 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:18:51 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:18:51 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:19:48 WARN  | [43216f12-1, L:/127.0.0.1:60803 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:19:48 ERROR | [d1455abe-343] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:20:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:20:00 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:20:00 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:20:41 WARN  | [02f11c9c-1, L:/127.0.0.1:60928 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:20:41 ERROR | [d1455abe-344] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:21:08 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:21:08 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:21:08 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:21:17 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:21:17 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:21:17 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:21:26 WARN  | [7b2d302f-1, L:/127.0.0.1:61076 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:21:26 ERROR | [cb7f1fb2-346] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 13:22:21 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:22:21 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:22:21 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:23:23 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:23:23 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:23:23 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:26:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:26:00 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:26:00 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 13:26:01 INFO  | [AUTH] path: /view/chatListView
+25-04-09 13:26:01 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 13:26:01 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:13:12 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:13:12 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:13:12 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:13:14 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:13:14 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:13:14 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:13:18 WARN  | [32e1c94d-1, L:/127.0.0.1:50102 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 14:13:18 ERROR | [a7e93ad6-352] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 14:13:36 INFO  | [AUTH] path: /logout
+25-04-09 14:13:36 INFO  | [AUTH] path: /login
+25-04-09 14:13:38 INFO  | [AUTH] path: /loginProc
+25-04-09 14:14:01 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-09 14:14:01 INFO  | Starting ChatGatewayApplication using Java 17 with PID 18912 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-09 14:14:01 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-09 14:14:02 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 14:14:02 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-09 14:14:02 INFO  | Finished Spring Data repository scanning in 24 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-09 14:14:02 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 14:14:02 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-09 14:14:02 INFO  | Finished Spring Data repository scanning in 8 ms. Found 0 R2DBC repository interfaces.
+25-04-09 14:14:02 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 14:14:02 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-09 14:14:02 INFO  | Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-04-09 14:14:03 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-09 14:14:06 INFO  | Cannot determine local hostname
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [After]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-09 14:14:06 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-09 14:14:07 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-09 14:14:07 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-09 14:14:07 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@5eee3da9, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@ace2408, com.mongodb.Jep395RecordCodecProvider@3573e19d, com.mongodb.KotlinCodecProvider@5c1dd18]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-09 14:14:07 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=62469000, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67f3211eab3e9bef9c415fde, counter=9}, lastWriteDate=Wed Apr 09 14:13:59 KST 2025, lastUpdateTimeNanos=188687770907700}
+25-04-09 14:14:07 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=62469000, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=7fffffff0000000000000047, setVersion=3, topologyVersion=TopologyVersion{processId=67f323eab0eb5c8808379c52, counter=7}, lastWriteDate=Wed Apr 09 14:13:59 KST 2025, lastUpdateTimeNanos=188687770907800}
+25-04-09 14:14:07 INFO  | Discovered replica set primary localhost:27018 with max election id 7fffffff0000000000000047 and max set version 3
+25-04-09 14:14:09 INFO  | Cannot determine local hostname
+25-04-09 14:14:09 INFO  | Netty started on port 80 (http)
+25-04-09 14:14:10 INFO  | Cannot determine local hostname
+25-04-09 14:14:12 INFO  | Cannot determine local hostname
+25-04-09 14:14:12 INFO  | Started ChatGatewayApplication in 13.555 seconds (process running for 14.143)
+25-04-09 14:15:03 INFO  | [AUTH] path: /logout
+25-04-09 14:15:04 INFO  | [AUTH] path: /login
+25-04-09 14:15:06 INFO  | [AUTH] path: /loginProc
+25-04-09 14:15:08 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:15:38 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:15:39 INFO  | [AUTH] path: /view/chatView
+25-04-09 14:15:39 INFO  | [AUTH] path: /view/chatView
+25-04-09 14:15:39 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 14:15:39 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 14:15:39 INFO  | [AUTH] path: /api/chat/history
+25-04-09 14:15:41 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:15:49 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:15:49 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:15:50 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:15:51 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:15:51 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:15:51 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:15:56 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:15:56 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:15:56 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:16:02 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:16:02 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:16:02 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:16:03 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:16:03 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:16:03 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:16:08 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:16:08 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:16:08 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:16:38 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:16:38 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:16:38 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:17:38 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:17:38 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:17:38 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:22:10 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:22:10 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:22:10 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:22:12 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:22:12 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:22:12 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:22:17 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:22:17 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:22:17 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:22:47 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:22:47 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:22:47 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:24:03 WARN  | [6f95079b-1, L:/127.0.0.1:50829 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 14:24:03 ERROR | [9ed26482-21] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 14:24:16 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:24:16 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:24:16 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:24:41 INFO  | [AUTH] path: /
+25-04-09 14:24:41 INFO  | [AUTH] path: /login
+25-04-09 14:24:41 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:24:48 INFO  | [AUTH] path: /logout
+25-04-09 14:24:49 INFO  | [AUTH] path: /login
+25-04-09 14:24:51 INFO  | [AUTH] path: /loginProc
+25-04-09 14:24:52 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:27:33 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:27:45 WARN  | [f63af706-1, L:/127.0.0.1:51165 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 14:27:45 ERROR | [42c8692b-30] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 14:28:37 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:34:03 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:36:58 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:36:58 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 14:36:58 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:38:16 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:38:16 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 14:38:16 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:38:29 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:38:29 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 14:38:29 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:39:09 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:39:09 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 14:39:09 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:47:12 WARN  | [76f36156-5, L:/127.0.0.1:51617 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 14:47:12 ERROR | [b13a48d3-36] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 14:47:41 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:47:41 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 14:47:41 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:48:59 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:48:59 WARN  | JWT 디코딩 실패: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+25-04-09 14:48:59 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:55:56 WARN  | [273c2b39-2, L:/127.0.0.1:52425 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 14:55:56 ERROR | [5b95a0b7-38] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 14:57:33 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:57:33 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:57:33 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:57:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:57:35 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:57:35 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:57:40 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:57:40 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:57:40 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:58:10 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:58:10 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:58:10 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:58:31 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:58:31 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:58:31 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:58:32 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:58:32 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:58:32 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:58:37 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:58:37 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:58:37 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:59:07 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:59:07 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:59:07 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 14:59:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 14:59:35 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 14:59:35 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:00:21 WARN  | [729c21ee-2, L:/127.0.0.1:53776 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 15:00:21 ERROR | [09b876b0-47] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 15:00:34 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:00:34 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:00:34 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:00:39 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:00:39 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:00:39 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:01:25 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:01:25 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:01:25 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:01:55 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:01:55 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:01:55 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:04:50 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:04:50 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:04:50 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:01 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:01 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:01 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:02 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:02 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:02 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:07 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:07 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:07 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:10 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:10 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:10 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:11 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:11 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:11 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:16 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:16 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:16 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:17 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:17 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:17 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:22 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:22 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:26 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:26 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:26 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:27 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:27 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:27 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:32 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:32 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:32 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:07:47 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:07:47 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:07:47 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:08:44 WARN  | [2925cf57-17, L:/127.0.0.1:53890 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 15:08:44 ERROR | [afd1b333-64] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 15:09:32 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:09:32 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:09:32 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:10:12 WARN  | [bc239a5b-1, L:/127.0.0.1:55130 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 15:10:12 ERROR | [afd1b333-65] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 15:10:26 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:10:26 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:10:26 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:11:15 WARN  | [2941305a-1, L:/127.0.0.1:55297 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 15:11:15 ERROR | [afd1b333-66] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 15:11:27 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:11:27 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:11:27 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:12:54 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:12:54 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:12:54 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:13:13 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:13:13 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:13:13 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:16:18 WARN  | [c83f4d6c-3, L:/127.0.0.1:55376 - R:localhost/127.0.0.1:8082] The connection observed an error
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 15:16:18 ERROR | [2f849533-69] 500 Server Error for HTTP GET "/view/chatListView"
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+		at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+		at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+		at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+		at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-09 15:16:33 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:16:33 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:16:33 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 15:16:37 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:16:50 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:16:50 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:16:50 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 15:16:50 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 15:16:51 INFO  | [AUTH] path: /api/chat/history
+25-04-09 15:16:52 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:19:09 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-09 15:19:09 INFO  | Starting ChatGatewayApplication using Java 17 with PID 37696 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-09 15:19:09 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-09 15:19:10 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 15:19:10 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-09 15:19:11 INFO  | Finished Spring Data repository scanning in 36 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-09 15:19:11 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 15:19:11 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-09 15:19:11 INFO  | Finished Spring Data repository scanning in 11 ms. Found 0 R2DBC repository interfaces.
+25-04-09 15:19:11 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 15:19:11 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-09 15:19:11 INFO  | Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+25-04-09 15:19:11 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-09 15:19:14 INFO  | Cannot determine local hostname
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [After]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-09 15:19:14 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-09 15:19:15 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-09 15:19:15 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-09 15:19:15 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@34bf66af, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@37364634, com.mongodb.Jep395RecordCodecProvider@3dec79f8, com.mongodb.KotlinCodecProvider@5bf7f15f]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-09 15:19:15 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=66485300, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67f3211eab3e9bef9c415fde, counter=9}, lastWriteDate=Wed Apr 09 15:19:09 KST 2025, lastUpdateTimeNanos=192595880973400}
+25-04-09 15:19:15 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=66479800, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=7fffffff0000000000000047, setVersion=3, topologyVersion=TopologyVersion{processId=67f323eab0eb5c8808379c52, counter=7}, lastWriteDate=Wed Apr 09 15:19:09 KST 2025, lastUpdateTimeNanos=192595880973400}
+25-04-09 15:19:15 INFO  | Discovered replica set primary localhost:27018 with max election id 7fffffff0000000000000047 and max set version 3
+25-04-09 15:19:17 INFO  | Cannot determine local hostname
+25-04-09 15:19:17 INFO  | Netty started on port 80 (http)
+25-04-09 15:19:18 INFO  | Cannot determine local hostname
+25-04-09 15:19:20 INFO  | Cannot determine local hostname
+25-04-09 15:19:20 INFO  | Started ChatGatewayApplication in 14.09 seconds (process running for 14.913)
+25-04-09 15:19:36 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:19:38 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:19:38 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:19:39 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 15:19:39 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 15:19:39 INFO  | [AUTH] path: /api/chat/history
+25-04-09 15:19:40 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:19:57 INFO  | [AUTH] path: /logout
+25-04-09 15:19:58 INFO  | [AUTH] path: /login
+25-04-09 15:19:59 INFO  | [AUTH] path: /loginProc
+25-04-09 15:20:00 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:20:02 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:20:02 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:20:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 15:20:02 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 15:20:02 INFO  | [AUTH] path: /api/chat/history
+25-04-09 15:20:04 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:30:57 INFO  | [AUTH] path: /
+25-04-09 15:31:01 INFO  | [AUTH] path: /
+25-04-09 15:31:06 INFO  | [AUTH] path: /login
+25-04-09 15:31:11 INFO  | [AUTH] path: /loginProc
+25-04-09 15:31:11 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:35:13 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:35:15 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:35:15 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:35:15 INFO  | [AUTH] path: /ws/chat/room2
+25-04-09 15:35:15 INFO  | [AUTH] path: /ws/chat/room2
+25-04-09 15:35:23 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:35:37 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:35:37 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:35:38 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-09 15:35:38 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:35:38 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 15:35:38 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-09 15:35:38 INFO  | [AUTH] path: /login
+25-04-09 15:35:38 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:35:41 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:35:41 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:35:41 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 15:35:41 INFO  | [AUTH] path: /ws/chat/room1
+25-04-09 15:35:41 INFO  | [AUTH] path: /api/chat/history
+25-04-09 15:35:52 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:35:54 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:36:02 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:36:06 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:36:06 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:36:06 INFO  | [AUTH] path: /ws/chat/room2
+25-04-09 15:36:06 INFO  | [AUTH] path: /ws/chat/room2
+25-04-09 15:36:22 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:39:31 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:39:31 INFO  | [AUTH] path: /view/chatView
+25-04-09 15:39:31 INFO  | [AUTH] path: /ws/chat/room2
+25-04-09 15:39:31 INFO  | [AUTH] path: /ws/chat/room2
+25-04-09 15:39:33 INFO  | [AUTH] path: /view/chatListView
+25-04-09 15:40:35 INFO  | [AUTH] path: /login
+25-04-09 15:40:35 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:28:12 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:28:12 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 16:28:12 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-09 16:28:14 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:28:16 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:28:24 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:28:24 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 16:28:24 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-09 16:28:25 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:28:29 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:28:29 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-09 16:28:29 INFO  | [AUTH] AccessToken 재발급 완료 : user3
+25-04-09 16:28:30 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:31:17 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:33:58 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-09 16:33:58 INFO  | Starting ChatGatewayApplication using Java 17 with PID 18752 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-09 16:33:58 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-09 16:33:59 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 16:33:59 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-09 16:33:59 INFO  | Finished Spring Data repository scanning in 23 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-09 16:33:59 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 16:33:59 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-09 16:33:59 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 R2DBC repository interfaces.
+25-04-09 16:33:59 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 16:33:59 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-09 16:33:59 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-04-09 16:34:00 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-09 16:34:03 INFO  | Cannot determine local hostname
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [After]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-09 16:34:04 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-09 16:34:04 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-09 16:34:04 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-09 16:34:04 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@5eee3da9, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@ace2408, com.mongodb.Jep395RecordCodecProvider@3573e19d, com.mongodb.KotlinCodecProvider@5c1dd18]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-09 16:34:05 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=82392400, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67f3211eab3e9bef9c415fde, counter=9}, lastWriteDate=Wed Apr 09 16:33:59 KST 2025, lastUpdateTimeNanos=197085565476100}
+25-04-09 16:34:05 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=82383700, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=7fffffff0000000000000047, setVersion=3, topologyVersion=TopologyVersion{processId=67f323eab0eb5c8808379c52, counter=7}, lastWriteDate=Wed Apr 09 16:33:59 KST 2025, lastUpdateTimeNanos=197085565476000}
+25-04-09 16:34:05 INFO  | Discovered replica set primary localhost:27018 with max election id 7fffffff0000000000000047 and max set version 3
+25-04-09 16:34:07 INFO  | Cannot determine local hostname
+25-04-09 16:34:07 INFO  | Netty started on port 80 (http)
+25-04-09 16:34:08 INFO  | Cannot determine local hostname
+25-04-09 16:34:10 INFO  | Cannot determine local hostname
+25-04-09 16:34:10 INFO  | Started ChatGatewayApplication in 13.89 seconds (process running for 14.376)
+25-04-09 16:34:20 INFO  | [AUTH] path: /view/friendListView
+25-04-09 16:34:27 INFO  | [AUTH] path: /logout
+25-04-09 16:34:27 INFO  | [AUTH] path: /login
+25-04-09 16:34:29 INFO  | [AUTH] path: /loginProc
+25-04-09 16:34:29 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:34:35 INFO  | [AUTH] path: /view/friendListView
+25-04-09 16:38:07 INFO  | [AUTH] path: /view/friendListView
+25-04-09 16:42:05 INFO  | [AUTH] path: /view/friendListView
+25-04-09 16:43:15 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-09 16:43:15 INFO  | Starting ChatGatewayApplication using Java 17 with PID 27060 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-09 16:43:15 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-09 16:43:16 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 16:43:16 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-09 16:43:16 INFO  | Finished Spring Data repository scanning in 23 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-09 16:43:16 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 16:43:16 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-09 16:43:16 INFO  | Finished Spring Data repository scanning in 8 ms. Found 0 R2DBC repository interfaces.
+25-04-09 16:43:16 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-09 16:43:16 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-09 16:43:16 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-04-09 16:43:16 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-09 16:43:19 INFO  | Cannot determine local hostname
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [After]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-09 16:43:19 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-09 16:43:20 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-09 16:43:20 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-09 16:43:20 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@7eefaca0, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7d5ef1c3, com.mongodb.Jep395RecordCodecProvider@33eab2e8, com.mongodb.KotlinCodecProvider@34bf66af]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-09 16:43:20 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=61052500, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=7fffffff0000000000000047, setVersion=3, topologyVersion=TopologyVersion{processId=67f323eab0eb5c8808379c52, counter=7}, lastWriteDate=Wed Apr 09 16:43:20 KST 2025, lastUpdateTimeNanos=197640999451100}
+25-04-09 16:43:20 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=61041000, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67f3211eab3e9bef9c415fde, counter=9}, lastWriteDate=Wed Apr 09 16:43:20 KST 2025, lastUpdateTimeNanos=197640999451100}
+25-04-09 16:43:20 INFO  | Discovered replica set primary localhost:27018 with max election id 7fffffff0000000000000047 and max set version 3
+25-04-09 16:43:22 INFO  | Cannot determine local hostname
+25-04-09 16:43:22 INFO  | Netty started on port 80 (http)
+25-04-09 16:43:23 INFO  | Cannot determine local hostname
+25-04-09 16:43:25 INFO  | Cannot determine local hostname
+25-04-09 16:43:25 INFO  | Started ChatGatewayApplication in 12.664 seconds (process running for 13.237)
+25-04-09 16:43:34 INFO  | [AUTH] path: /view/friendListView
+25-04-09 16:52:19 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:52:21 INFO  | [AUTH] path: /view/chatView
+25-04-09 16:52:21 INFO  | [AUTH] path: /view/chatView
+25-04-09 16:52:22 INFO  | [AUTH] path: /ws/chat/room2
+25-04-09 16:52:22 INFO  | [AUTH] path: /ws/chat/room2
+25-04-09 16:52:27 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:52:34 INFO  | [AUTH] path: /login
+25-04-09 16:52:34 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:52:35 INFO  | [AUTH] path: /view/friendListView
+25-04-09 16:53:44 INFO  | [AUTH] path: /view/chatListView
+25-04-09 16:53:49 INFO  | [AUTH] path: /view/chatListView

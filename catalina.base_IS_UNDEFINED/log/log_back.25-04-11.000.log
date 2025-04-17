@@ -1,0 +1,273 @@
+25-04-11 07:58:15 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-11 07:58:15 INFO  | Starting ChatGatewayApplication using Java 17 with PID 28548 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-11 07:58:15 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-11 07:58:16 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-11 07:58:16 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-11 07:58:16 INFO  | Finished Spring Data repository scanning in 20 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-11 07:58:16 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-11 07:58:16 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-11 07:58:16 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 R2DBC repository interfaces.
+25-04-11 07:58:16 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-11 07:58:16 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-11 07:58:16 INFO  | Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-04-11 07:58:16 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [After]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-11 07:58:18 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-11 07:58:18 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-11 07:58:18 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-11 07:58:18 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@41e7a544, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3b66ac74, com.mongodb.Jep395RecordCodecProvider@573870cb, com.mongodb.KotlinCodecProvider@5b88af70]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-11 07:58:18 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=54461700, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=7fffffff0000000000000047, setVersion=3, topologyVersion=TopologyVersion{processId=67f323eab0eb5c8808379c52, counter=7}, lastWriteDate=Fri Apr 11 07:58:13 KST 2025, lastUpdateTimeNanos=338939279585100}
+25-04-11 07:58:18 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=54450100, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67f3211eab3e9bef9c415fde, counter=9}, lastWriteDate=Fri Apr 11 07:58:13 KST 2025, lastUpdateTimeNanos=338939279585200}
+25-04-11 07:58:18 INFO  | Discovered replica set primary localhost:27018 with max election id 7fffffff0000000000000047 and max set version 3
+25-04-11 07:58:19 INFO  | Netty started on port 80 (http)
+25-04-11 07:58:20 INFO  | Started ChatGatewayApplication in 6.815 seconds (process running for 7.293)
+25-04-11 08:02:09 INFO  | [AUTH] path: /view/friendListView
+25-04-11 08:02:09 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-11 08:02:10 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-11 08:02:13 INFO  | [AUTH] path: /view/friendListView
+25-04-11 08:20:25 INFO  | [AUTH] path: /view/friendListView
+25-04-11 08:20:27 INFO  | [AUTH] path: /api/friends/chatRoom
+25-04-11 08:20:55 INFO  | [AUTH] path: /api/friends/chatRoom
+25-04-11 08:25:31 INFO  | [AUTH] path: /view/friendListView
+25-04-11 08:26:23 INFO  | [AUTH] path: /view/friendListView
+25-04-11 08:26:24 INFO  | [AUTH] path: /api/friends/chatRoom
+25-04-11 08:26:24 INFO  | [AUTH] path: /view/chatView
+25-04-11 08:26:24 INFO  | [AUTH] path: /view/chatView
+25-04-11 08:26:25 INFO  | [AUTH] path: /ws/chat/e5407bba-9015-45c2-b66f-31fc85450184
+25-04-11 08:26:25 INFO  | [AUTH] path: /ws/chat/e5407bba-9015-45c2-b66f-31fc85450184
+25-04-11 08:26:29 INFO  | [AUTH] path: /view/friendListView
+25-04-11 08:26:32 INFO  | [AUTH] path: /api/friends/chatRoom
+25-04-11 08:26:32 INFO  | [AUTH] path: /view/chatView
+25-04-11 08:26:32 INFO  | [AUTH] path: /view/chatView
+25-04-11 08:26:32 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 08:26:32 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 08:28:59 INFO  | [AUTH] path: /view/chatListView
+25-04-11 08:29:03 INFO  | [AUTH] path: /
+25-04-11 08:29:03 INFO  | [AUTH] path: /login
+25-04-11 08:29:03 INFO  | [AUTH] path: /view/chatListView
+25-04-11 08:29:20 INFO  | [AUTH] path: /view/chatView
+25-04-11 08:29:20 INFO  | [AUTH] path: /view/chatView
+25-04-11 08:29:20 INFO  | [AUTH] path: /ws/chat/e5407bba-9015-45c2-b66f-31fc85450185
+25-04-11 08:29:20 INFO  | [AUTH] path: /ws/chat/e5407bba-9015-45c2-b66f-31fc85450185
+25-04-11 08:29:21 INFO  | [AUTH] path: /view/chatListView
+25-04-11 08:30:50 INFO  | [AUTH] path: /view/friendListView
+25-04-11 08:30:53 INFO  | [AUTH] path: /view/chatListView
+25-04-11 08:30:55 INFO  | [AUTH] path: /view/friendListView
+25-04-11 08:30:56 INFO  | [AUTH] path: /api/friends/chatRoom
+25-04-11 08:30:56 INFO  | [AUTH] path: /view/chatView
+25-04-11 08:30:56 INFO  | [AUTH] path: /view/chatView
+25-04-11 08:30:56 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 08:30:56 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 08:31:08 INFO  | [AUTH] path: /view/chatListView
+25-04-11 08:31:16 INFO  | [AUTH] path: /view/chatView
+25-04-11 08:31:16 INFO  | [AUTH] path: /view/chatView
+25-04-11 08:31:16 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 08:31:16 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 08:32:00 INFO  | [AUTH] path: /view/chatListView
+25-04-11 08:36:27 INFO  | [AUTH] path: /
+25-04-11 08:36:27 INFO  | [AUTH] path: /login
+25-04-11 08:36:27 INFO  | [AUTH] path: /view/chatListView
+25-04-11 13:19:11 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-11 13:19:11 INFO  | Starting ChatGatewayApplication using Java 17 with PID 23980 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-11 13:19:11 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-11 13:19:14 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-11 13:19:15 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-11 13:19:15 INFO  | Finished Spring Data repository scanning in 49 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-11 13:19:15 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-11 13:19:15 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-11 13:19:15 INFO  | Finished Spring Data repository scanning in 14 ms. Found 0 R2DBC repository interfaces.
+25-04-11 13:19:15 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-11 13:19:15 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-11 13:19:15 INFO  | Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+25-04-11 13:19:15 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [After]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-11 13:19:18 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-11 13:19:19 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-11 13:19:19 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-11 13:19:19 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@1b8ee69d, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@2b400bd0, com.mongodb.Jep395RecordCodecProvider@fceab5d, com.mongodb.KotlinCodecProvider@79445efb]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-11 13:19:19 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=102670200, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=7fffffff0000000000000047, setVersion=3, topologyVersion=TopologyVersion{processId=67f323eab0eb5c8808379c52, counter=7}, lastWriteDate=Fri Apr 11 13:19:16 KST 2025, lastUpdateTimeNanos=358198765598700}
+25-04-11 13:19:19 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=102669900, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27018', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=67f3211eab3e9bef9c415fde, counter=9}, lastWriteDate=Fri Apr 11 13:19:16 KST 2025, lastUpdateTimeNanos=358198765598700}
+25-04-11 13:19:19 INFO  | Discovered replica set primary localhost:27018 with max election id 7fffffff0000000000000047 and max set version 3
+25-04-11 13:19:20 INFO  | Netty started on port 80 (http)
+25-04-11 13:19:22 INFO  | Started ChatGatewayApplication in 14.875 seconds (process running for 15.804)
+25-04-11 13:19:25 INFO  | [AUTH] path: /view/chatListView
+25-04-11 13:19:25 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-11 13:19:25 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-11 13:19:28 INFO  | [AUTH] path: /view/chatListView
+25-04-11 13:19:31 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:19:31 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:19:31 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:19:31 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:19:32 INFO  | [AUTH] path: /ws/chat/e5407bba-9015-45c2-b66f-31fc85450184
+25-04-11 13:19:32 INFO  | [AUTH] path: /ws/chat/e5407bba-9015-45c2-b66f-31fc85450184
+25-04-11 13:19:35 INFO  | [AUTH] path: /view/chatListView
+25-04-11 13:19:36 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:19:36 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:19:36 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:19:36 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:19:45 INFO  | [AUTH] path: /view/chatListView
+25-04-11 13:24:48 INFO  | [AUTH] path: /view/chatListView
+25-04-11 13:24:49 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:24:49 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:24:49 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:24:49 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:24:51 INFO  | [AUTH] path: /view/chatListView
+25-04-11 13:24:55 INFO  | [AUTH] path: /view/chatListView
+25-04-11 13:24:55 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-11 13:24:55 INFO  | [AUTH] AccessToken 재발급 완료 : user3
+25-04-11 13:24:56 INFO  | [AUTH] path: /view/chatListView
+25-04-11 13:24:57 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:24:57 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:24:58 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:24:58 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:25:12 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:25:12 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:25:12 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:25:12 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:42:32 INFO  | [AUTH] path: /view/chatListView
+25-04-11 13:42:33 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:42:33 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:42:34 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:42:34 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:42:47 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:42:47 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:42:47 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:42:47 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:42:53 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:42:53 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:42:53 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:42:53 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:44:04 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:44:04 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:44:05 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:44:05 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:44:16 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:44:16 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:44:16 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:44:16 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:44:18 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:44:18 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:44:18 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:44:18 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:44:19 INFO  | [AUTH] path: /view/chatListView
+25-04-11 13:44:23 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:44:23 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:44:23 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:44:23 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:44:25 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:44:25 INFO  | [AUTH] path: /view/chatView
+25-04-11 13:44:25 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:44:25 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-11 13:46:20 ERROR | Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.io.IOException: Connection reset by peer
+Caused by: java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:76)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:414)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:929)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:359)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:893)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1319)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:935)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:921)
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:907)
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:939)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:957)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000)
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974)
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305)
+	at reactor.netty.http.client.WebsocketClientOperations.lambda$sendClose$1(WebsocketClientOperations.java:246)
+	at reactor.netty.FutureMono$DeferredFutureMono.subscribe(FutureMono.java:100)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onNext(FluxFilter.java:113)
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onNext(FluxMap.java:224)
+	at reactor.core.publisher.FluxFirstWithSignal$FirstEmittingSubscriber.onNext(FluxFirstWithSignal.java:333)
+	at reactor.core.publisher.Operators$MonoInnerProducerBase.complete(Operators.java:2834)
+	at reactor.core.publisher.SinkOneMulticast.tryEmitValue(SinkOneMulticast.java:66)
+	at reactor.netty.http.server.WebsocketServerOperations.sendCloseNow(WebsocketServerOperations.java:289)
+	at reactor.netty.http.server.WebsocketServerOperations.onInboundCancel(WebsocketServerOperations.java:222)
+	at reactor.netty.channel.FluxReceive.unsubscribeReceiver(FluxReceive.java:508)
+	at reactor.netty.channel.FluxReceive.lambda$new$0(FluxReceive.java:89)
+	at reactor.netty.channel.FluxReceive.cancelReceiver(FluxReceive.java:199)
+	at reactor.netty.channel.FluxReceive.doCancel(FluxReceive.java:205)
+	at reactor.netty.channel.FluxReceive.cancel(FluxReceive.java:105)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.cancel(FluxFilter.java:191)
+	at reactor.core.publisher.FluxMap$MapSubscriber.cancel(FluxMap.java:169)
+	at reactor.core.publisher.FluxMap$MapSubscriber.cancel(FluxMap.java:169)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.cancel(FluxPeek.java:153)
+	at reactor.core.publisher.FluxMap$MapSubscriber.cancel(FluxMap.java:169)
+	at reactor.core.publisher.Operators.terminate(Operators.java:1328)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.cancel(MonoSendMany.java:168)
+	at reactor.core.publisher.Operators.terminate(Operators.java:1328)
+	at reactor.core.publisher.MonoZip$ZipInner.cancel(MonoZip.java:548)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.cancelExcept(MonoZip.java:322)
+	at reactor.core.publisher.MonoZip$ZipInner.onError(MonoZip.java:515)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.run(MonoSendMany.java:352)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.trySchedule(MonoSendMany.java:434)
+	at reactor.netty.channel.MonoSendMany$SendManyInner.onError(MonoSendMany.java:199)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onError(FluxFilter.java:157)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:478)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:273)
+	at reactor.netty.channel.FluxReceive.onInboundError(FluxReceive.java:466)
+	at reactor.netty.channel.ChannelOperations.onInboundError(ChannelOperations.java:526)
+	at reactor.netty.channel.ChannelOperationsHandler.exceptionCaught(ChannelOperationsHandler.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
