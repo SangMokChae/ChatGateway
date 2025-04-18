@@ -331,3 +331,1409 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 25-04-18 08:34:38 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
 25-04-18 08:34:39 INFO  | [AUTH] path: /api/chat/history
 25-04-18 08:34:46 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:37:06 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:37:07 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:37:07 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:38:01 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:38:01 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:39:10 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:39:10 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:39:23 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:40:26 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:56:56 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:56:56 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:56:56 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:57:45 INFO  | [AUTH] path: /view/chatListView
+25-04-18 08:57:58 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:57:59 INFO  | [AUTH] path: /view/chatView
+25-04-18 08:57:59 INFO  | [AUTH] path: /view/chatView
+25-04-18 08:57:59 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-18 08:57:59 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-18 08:58:00 INFO  | [AUTH] path: /view/chatListView
+25-04-18 08:58:00 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:58:00 INFO  | [AUTH] path: /view/chatView
+25-04-18 08:58:00 INFO  | [AUTH] path: /view/chatView
+25-04-18 08:58:00 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 08:58:00 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 08:58:00 INFO  | [AUTH] path: /api/chat/history
+25-04-18 08:58:02 INFO  | [AUTH] path: /view/chatListView
+25-04-18 08:58:02 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:58:04 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:58:04 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 08:58:43 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:01:39 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:01:39 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 09:01:39 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-18 09:01:48 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:02:42 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:07:48 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:07:54 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:07:54 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:07:56 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:07:57 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:07:57 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:07:57 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:07:57 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 09:07:57 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 09:07:57 INFO  | [AUTH] path: /api/chat/history
+25-04-18 09:07:59 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:07:59 INFO  | [AUTH] path: /view/chatListView
+25-04-18 09:07:59 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 09:07:59 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 09:09:38 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-18 09:09:38 INFO  | Starting ChatGatewayApplication using Java 17 with PID 29408 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-18 09:09:38 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-18 09:09:39 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 09:09:39 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-18 09:09:39 INFO  | Finished Spring Data repository scanning in 26 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-18 09:09:39 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 09:09:39 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-18 09:09:39 INFO  | Finished Spring Data repository scanning in 10 ms. Found 0 R2DBC repository interfaces.
+25-04-18 09:09:39 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 09:09:39 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-18 09:09:39 INFO  | Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-04-18 09:09:39 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-18 09:09:42 INFO  | Cannot determine local hostname
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [After]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-18 09:09:43 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-18 09:09:43 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-18 09:09:43 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-18 09:09:43 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@2bd4780c, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@2c154508, com.mongodb.Jep395RecordCodecProvider@395eb363, com.mongodb.KotlinCodecProvider@1e194966]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-18 09:09:44 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=81422500, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=68018a8ac162d248401b1141, counter=4}, lastWriteDate=Fri Apr 18 09:09:36 KST 2025, lastUpdateTimeNanos=3942788882600}
+25-04-18 09:09:44 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=81434100, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000054, setVersion=3, topologyVersion=TopologyVersion{processId=680188f565a478866e50ac58, counter=11}, lastWriteDate=Fri Apr 18 09:09:36 KST 2025, lastUpdateTimeNanos=3942788888700}
+25-04-18 09:09:44 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000054 and max set version 3
+25-04-18 09:09:46 INFO  | Cannot determine local hostname
+25-04-18 09:09:48 WARN  | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+25-04-18 09:09:48 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:09:50 INFO  | 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+25-04-18 09:09:50 ERROR | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+25-04-18 09:10:31 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:10:35 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:10:38 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:10:43 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:10:45 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:10:51 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:11:00 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:11:02 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:21:01 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-18 09:21:01 INFO  | Starting ChatGatewayApplication using Java 17 with PID 29180 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-18 09:21:01 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-18 09:21:03 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 09:21:03 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-18 09:21:03 INFO  | Finished Spring Data repository scanning in 29 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-18 09:21:03 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 09:21:03 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-18 09:21:03 INFO  | Finished Spring Data repository scanning in 10 ms. Found 0 R2DBC repository interfaces.
+25-04-18 09:21:03 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 09:21:03 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-18 09:21:03 INFO  | Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-18 09:21:03 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-18 09:21:07 INFO  | Cannot determine local hostname
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [After]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-18 09:21:08 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-18 09:21:08 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-18 09:21:08 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-18 09:21:08 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@506b083, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5eee3da9, com.mongodb.Jep395RecordCodecProvider@ace2408, com.mongodb.KotlinCodecProvider@3573e19d]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-18 09:21:09 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=67326100, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000054, setVersion=3, topologyVersion=TopologyVersion{processId=680188f565a478866e50ac58, counter=11}, lastWriteDate=Fri Apr 18 09:21:06 KST 2025, lastUpdateTimeNanos=4627822134900}
+25-04-18 09:21:09 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=67336400, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=68018a8ac162d248401b1141, counter=4}, lastWriteDate=Fri Apr 18 09:21:06 KST 2025, lastUpdateTimeNanos=4627822134800}
+25-04-18 09:21:09 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000054 and max set version 3
+25-04-18 09:21:10 INFO  | Cannot determine local hostname
+25-04-18 09:21:11 INFO  | Netty started on port 80 (http)
+25-04-18 09:21:11 INFO  | [AUTH] path: /view/chatListView
+25-04-18 09:21:12 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:21:12 INFO  | Cannot determine local hostname
+25-04-18 09:21:14 INFO  | Cannot determine local hostname
+25-04-18 09:21:14 INFO  | Started ChatGatewayApplication in 15.291 seconds (process running for 15.844)
+25-04-18 09:21:15 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:21:17 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:21:19 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:21:22 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:21:22 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:21:23 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-18 09:21:23 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-18 09:21:24 INFO  | [AUTH] path: /view/chatListView
+25-04-18 09:21:24 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:21:25 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:21:25 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:21:25 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 09:21:25 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 09:21:25 INFO  | [AUTH] path: /api/chat/history
+25-04-18 09:21:26 INFO  | [AUTH] path: /view/chatListView
+25-04-18 09:21:26 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:21:31 INFO  | [AUTH] path: /view/friendListView
+25-04-18 09:21:35 INFO  | [AUTH] path: /api/friends/chatRoom
+25-04-18 09:21:35 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:21:35 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:21:35 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-18 09:21:35 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-18 09:21:36 INFO  | [AUTH] path: /view/chatListView
+25-04-18 09:21:36 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:21:37 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:21:37 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:21:37 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-18 09:21:37 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-18 09:21:38 INFO  | [AUTH] path: /view/chatListView
+25-04-18 09:21:38 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 09:21:39 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:21:39 INFO  | [AUTH] path: /view/chatView
+25-04-18 09:21:39 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 09:21:39 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 09:21:40 INFO  | [AUTH] path: /api/chat/history
+25-04-18 09:21:42 INFO  | [AUTH] path: /view/chatListView
+25-04-18 09:21:42 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:11:17 INFO  | [AUTH] path: /view/chatView
+25-04-18 10:11:17 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 10:11:17 INFO  | [AUTH] path: /view/chatView
+25-04-18 10:11:17 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 10:11:17 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 10:11:17 INFO  | [AUTH] path: /view/chatView
+25-04-18 10:11:17 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 10:11:17 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 10:11:17 INFO  | [AUTH] path: /view/chatView
+25-04-18 10:11:17 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 10:11:17 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 10:11:18 INFO  | [AUTH] path: /login
+25-04-18 10:11:18 INFO  | [AUTH] path: /view/chatListView
+25-04-18 10:11:19 INFO  | [AUTH] path: /view/chatView
+25-04-18 10:11:19 INFO  | [AUTH] path: /view/chatView
+25-04-18 10:11:19 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-18 10:11:19 INFO  | [AUTH] path: /ws/chat/VzeihiW-pJP5olOHQEcjecrEAT6UEAWxaCbSqShgNf0
+25-04-18 10:11:27 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:11:45 INFO  | [AUTH] path: /view/chatListView
+25-04-18 10:11:45 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:17:07 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:17:07 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 10:17:07 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-18 10:17:12 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:17:53 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:18:00 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:18:08 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:31:07 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:32:53 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:33:58 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:34:13 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:34:47 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:43:56 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:47:35 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:47:35 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 10:47:35 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-18 10:50:59 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:51:02 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 10:51:11 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:09:24 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:12:06 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:12:07 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:13:43 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:13:46 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:14:02 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:14:04 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:14:05 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:23:23 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:23:23 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 11:23:23 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-18 11:23:24 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:23:41 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:23:45 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:25:05 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:25:08 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:26:59 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:29:24 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:34:51 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:35:21 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:35:29 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:35:35 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 11:35:38 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:08:50 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:08:50 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 13:08:50 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-18 13:09:44 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:10:46 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:15:14 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:15:17 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:15:19 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:15:26 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-18 13:15:26 INFO  | Starting ChatGatewayApplication using Java 17 with PID 13248 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-18 13:15:26 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-18 13:15:27 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:15:27 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-18 13:15:27 INFO  | Finished Spring Data repository scanning in 43 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-18 13:15:27 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:15:27 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-18 13:15:27 INFO  | Finished Spring Data repository scanning in 12 ms. Found 0 R2DBC repository interfaces.
+25-04-18 13:15:27 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:15:28 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-18 13:15:28 INFO  | Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+25-04-18 13:15:28 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-18 13:15:32 INFO  | Cannot determine local hostname
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [After]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-18 13:15:32 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-18 13:15:33 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-18 13:15:33 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-18 13:15:33 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@377e90b0, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@27b490de, com.mongodb.Jep395RecordCodecProvider@36cf16a6, com.mongodb.KotlinCodecProvider@3dd750ba]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-18 13:15:33 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=73273000, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000054, setVersion=3, topologyVersion=TopologyVersion{processId=680188f565a478866e50ac58, counter=11}, lastWriteDate=Fri Apr 18 13:15:27 KST 2025, lastUpdateTimeNanos=18692384372800}
+25-04-18 13:15:33 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=73274700, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=68018a8ac162d248401b1141, counter=4}, lastWriteDate=Fri Apr 18 13:15:27 KST 2025, lastUpdateTimeNanos=18692384372800}
+25-04-18 13:15:33 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000054 and max set version 3
+25-04-18 13:15:35 INFO  | Cannot determine local hostname
+25-04-18 13:15:35 INFO  | Netty started on port 80 (http)
+25-04-18 13:15:37 INFO  | Cannot determine local hostname
+25-04-18 13:15:38 INFO  | Cannot determine local hostname
+25-04-18 13:15:38 INFO  | Started ChatGatewayApplication in 15.007 seconds (process running for 15.763)
+25-04-18 13:15:39 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:15:43 INFO  | [AUTH] path: /view/chatListView
+25-04-18 13:15:43 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 13:15:43 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 13:15:46 INFO  | [AUTH] path: /view/chatListView
+25-04-18 13:16:10 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:18:01 INFO  | [AUTH] path: /view/chatListView
+25-04-18 13:18:07 INFO  | [AUTH] path: /view/chatListView
+25-04-18 13:18:11 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:18:11 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:18:11 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:18:11 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:18:12 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 13:18:12 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 13:18:12 INFO  | [AUTH] path: /api/chat/history
+25-04-18 13:18:16 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:19:35 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-18 13:19:35 INFO  | Starting ChatGatewayApplication using Java 17 with PID 14640 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-18 13:19:35 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-18 13:19:36 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:19:36 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-18 13:19:36 INFO  | Finished Spring Data repository scanning in 35 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-18 13:19:36 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:19:36 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-18 13:19:36 INFO  | Finished Spring Data repository scanning in 16 ms. Found 0 R2DBC repository interfaces.
+25-04-18 13:19:36 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:19:36 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-18 13:19:36 INFO  | Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+25-04-18 13:19:37 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-18 13:19:40 INFO  | Cannot determine local hostname
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [After]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-18 13:19:40 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-18 13:19:41 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-18 13:19:41 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-18 13:19:41 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@73234691, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@25df2014, com.mongodb.Jep395RecordCodecProvider@270b8c2a, com.mongodb.KotlinCodecProvider@7b9c2387]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-18 13:19:41 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=115540800, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000054, setVersion=3, topologyVersion=TopologyVersion{processId=680188f565a478866e50ac58, counter=11}, lastWriteDate=Fri Apr 18 13:19:37 KST 2025, lastUpdateTimeNanos=18940205296300}
+25-04-18 13:19:41 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=115795100, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=68018a8ac162d248401b1141, counter=4}, lastWriteDate=Fri Apr 18 13:19:37 KST 2025, lastUpdateTimeNanos=18940205508400}
+25-04-18 13:19:41 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000054 and max set version 3
+25-04-18 13:19:43 INFO  | Cannot determine local hostname
+25-04-18 13:19:43 INFO  | Netty started on port 80 (http)
+25-04-18 13:19:45 INFO  | Cannot determine local hostname
+25-04-18 13:19:46 INFO  | Cannot determine local hostname
+25-04-18 13:19:46 INFO  | Started ChatGatewayApplication in 15.711 seconds (process running for 16.938)
+25-04-18 13:19:48 INFO  | [AUTH] path: /view/chatListView
+25-04-18 13:19:56 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:19:57 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:19:57 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:19:58 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:19:58 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 13:19:58 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 13:19:58 INFO  | [AUTH] path: /api/chat/history
+25-04-18 13:20:04 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:20:08 INFO  | [AUTH] path: /view/chatListView
+25-04-18 13:20:13 INFO  | [AUTH] path: /view/chatListView
+25-04-18 13:20:23 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:21:37 INFO  | [AUTH] path: /view/chatListView
+25-04-18 13:21:46 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:22:48 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:23:56 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:39:33 INFO  | [AUTH] path: /view/chatListView
+25-04-18 13:39:34 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:39:34 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:39:34 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:39:34 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:39:35 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 13:39:35 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 13:39:35 INFO  | [AUTH] path: /api/chat/history
+25-04-18 13:39:35 INFO  | [AUTH] path: /api/chat/history
+25-04-18 13:39:39 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:40:09 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:40:09 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 13:40:09 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-18 13:45:50 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:45:50 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 13:45:50 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 13:45:50 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:45:50 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 13:45:50 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 13:45:50 INFO  | [AUTH] path: /login
+25-04-18 13:45:50 INFO  | [AUTH] path: /view/chatListView
+25-04-18 13:45:50 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:45:52 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:45:52 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:45:52 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 13:45:52 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 13:45:52 INFO  | [AUTH] path: /api/chat/history
+25-04-18 13:45:55 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:49:12 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:49:24 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:50:07 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:50:19 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-18 13:50:19 INFO  | Starting ChatGatewayApplication using Java 17 with PID 30792 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-18 13:50:19 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-18 13:50:20 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:50:20 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-18 13:50:20 INFO  | Finished Spring Data repository scanning in 23 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-18 13:50:20 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:50:20 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-18 13:50:20 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 R2DBC repository interfaces.
+25-04-18 13:50:20 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:50:20 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-18 13:50:20 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-04-18 13:50:20 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-18 13:50:23 INFO  | Cannot determine local hostname
+25-04-18 13:50:23 WARN  | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nettyWriteResponseFilter' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$NettyConfiguration.class]: Unsatisfied dependency expressed through method 'nettyWriteResponseFilter' parameter 0: Error creating bean with name 'gatewayProperties': Could not bind properties to 'GatewayProperties' : prefix=spring.cloud.gateway, ignoreInvalidFields=false, ignoreUnknownFields=true
+25-04-18 13:50:23 INFO  | 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+25-04-18 13:50:23 ERROR | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.gateway.routes[3].predicates[1]' to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition:
+
+    Property: spring.cloud.gateway.routes[3].predicates[1]
+    Value: ""
+    Origin: class path resource [application.yml] - 45:14
+    Reason: failed to convert java.lang.String to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition (caused by jakarta.validation.ValidationException: Unable to parse PredicateDefinition text '', must be of the form name=value)
+
+Action:
+
+Update your application's configuration
+
+25-04-18 13:54:22 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-18 13:54:22 INFO  | Starting ChatGatewayApplication using Java 17 with PID 30348 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-18 13:54:22 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-18 13:54:23 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:54:23 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-18 13:54:23 INFO  | Finished Spring Data repository scanning in 23 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-18 13:54:23 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:54:23 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-18 13:54:23 INFO  | Finished Spring Data repository scanning in 8 ms. Found 0 R2DBC repository interfaces.
+25-04-18 13:54:23 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:54:23 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-18 13:54:23 INFO  | Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-04-18 13:54:23 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-18 13:54:27 INFO  | Cannot determine local hostname
+25-04-18 13:54:27 WARN  | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nettyWriteResponseFilter' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$NettyConfiguration.class]: Unsatisfied dependency expressed through method 'nettyWriteResponseFilter' parameter 0: Error creating bean with name 'gatewayProperties': Could not bind properties to 'GatewayProperties' : prefix=spring.cloud.gateway, ignoreInvalidFields=false, ignoreUnknownFields=true
+25-04-18 13:54:27 INFO  | 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+25-04-18 13:54:27 ERROR | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.gateway.routes[3].predicates[1]' to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition:
+
+    Property: spring.cloud.gateway.routes[3].predicates[1]
+    Value: ""
+    Origin: class path resource [application.yml] - 45:14
+    Reason: failed to convert java.lang.String to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition (caused by jakarta.validation.ValidationException: Unable to parse PredicateDefinition text '', must be of the form name=value)
+
+Action:
+
+Update your application's configuration
+
+25-04-18 13:56:41 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-18 13:56:41 INFO  | Starting ChatGatewayApplication using Java 17 with PID 29616 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-18 13:56:41 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-18 13:56:42 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:56:42 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-18 13:56:42 INFO  | Finished Spring Data repository scanning in 24 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-18 13:56:42 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:56:42 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-18 13:56:42 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 R2DBC repository interfaces.
+25-04-18 13:56:42 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 13:56:42 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-18 13:56:42 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-04-18 13:56:42 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-18 13:56:45 INFO  | Cannot determine local hostname
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [After]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-18 13:56:45 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-18 13:56:46 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-18 13:56:46 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-18 13:56:46 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@6b3b4f37, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3b25709e, com.mongodb.Jep395RecordCodecProvider@5ec6a1b6, com.mongodb.KotlinCodecProvider@40013051]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-18 13:56:46 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=63168800, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000054, setVersion=3, topologyVersion=TopologyVersion{processId=680188f565a478866e50ac58, counter=11}, lastWriteDate=Fri Apr 18 13:56:37 KST 2025, lastUpdateTimeNanos=21165281721300}
+25-04-18 13:56:46 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=63165200, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=68018a8ac162d248401b1141, counter=4}, lastWriteDate=Fri Apr 18 13:56:37 KST 2025, lastUpdateTimeNanos=21165281721400}
+25-04-18 13:56:46 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000054 and max set version 3
+25-04-18 13:56:48 INFO  | Cannot determine local hostname
+25-04-18 13:56:48 INFO  | Netty started on port 80 (http)
+25-04-18 13:56:49 INFO  | Cannot determine local hostname
+25-04-18 13:56:51 INFO  | Cannot determine local hostname
+25-04-18 13:56:51 INFO  | Started ChatGatewayApplication in 11.906 seconds (process running for 12.415)
+25-04-18 13:57:38 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:57:38 INFO  | [AUTH] path: /view/chatView
+25-04-18 13:57:39 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 13:57:39 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 13:57:39 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 13:57:39 INFO  | [AUTH] path: /ws/read/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 13:57:39 WARN  | [499fd526-1, L:/127.0.0.1:52410 - R:localhost/127.0.0.1:8081] The connection observed an error
+io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Invalid handshake response getStatus: 303 See Other
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker13.verify(WebSocketClientHandshaker13.java:312)
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker.finishHandshake(WebSocketClientHandshaker.java:364)
+	at reactor.netty.http.client.WebsocketClientOperations.onInboundNext(WebsocketClientOperations.java:121)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-18 13:57:39 WARN  | [499fd526-1, L:/127.0.0.1:52410 ! R:localhost/127.0.0.1:8081] An exception has been observed post termination, use DEBUG level to see the full stack: io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Connection prematurely closed BEFORE opening handshake is complete.
+25-04-18 13:57:39 INFO  | [AUTH] path: /ws/status/user1
+25-04-18 13:57:39 WARN  | [6cd8b842-3, L:/127.0.0.1:52405 - R:localhost/127.0.0.1:8081] The connection observed an error
+io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Invalid handshake response getStatus: 303 See Other
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker13.verify(WebSocketClientHandshaker13.java:312)
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker.finishHandshake(WebSocketClientHandshaker.java:364)
+	at reactor.netty.http.client.WebsocketClientOperations.onInboundNext(WebsocketClientOperations.java:121)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-18 13:57:39 WARN  | [6cd8b842-3, L:/127.0.0.1:52405 ! R:localhost/127.0.0.1:8081] An exception has been observed post termination, use DEBUG level to see the full stack: io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Connection prematurely closed BEFORE opening handshake is complete.
+25-04-18 13:57:39 INFO  | [AUTH] path: /api/chat/history
+25-04-18 13:57:48 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:01:01 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-18 14:01:01 INFO  | Starting ChatGatewayApplication using Java 17 with PID 21248 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-18 14:01:01 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-18 14:01:02 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 14:01:02 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-18 14:01:02 INFO  | Finished Spring Data repository scanning in 21 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-18 14:01:02 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 14:01:02 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-18 14:01:02 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 R2DBC repository interfaces.
+25-04-18 14:01:02 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 14:01:02 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-18 14:01:02 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-04-18 14:01:02 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-18 14:01:06 INFO  | Cannot determine local hostname
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [After]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-18 14:01:06 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-18 14:01:07 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-18 14:01:07 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-18 14:01:07 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@5a78b52b, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4bab78ce, com.mongodb.Jep395RecordCodecProvider@42ffbab6, com.mongodb.KotlinCodecProvider@7672960e]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-18 14:01:07 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=84562800, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000054, setVersion=3, topologyVersion=TopologyVersion{processId=680188f565a478866e50ac58, counter=11}, lastWriteDate=Fri Apr 18 14:00:57 KST 2025, lastUpdateTimeNanos=21426410410500}
+25-04-18 14:01:07 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=84534800, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=68018a8ac162d248401b1141, counter=4}, lastWriteDate=Fri Apr 18 14:00:57 KST 2025, lastUpdateTimeNanos=21426410410400}
+25-04-18 14:01:07 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000054 and max set version 3
+25-04-18 14:01:09 INFO  | Cannot determine local hostname
+25-04-18 14:01:09 INFO  | Netty started on port 80 (http)
+25-04-18 14:01:10 INFO  | [AUTH] path: /view/chatListView
+25-04-18 14:01:11 INFO  | Cannot determine local hostname
+25-04-18 14:01:13 INFO  | Cannot determine local hostname
+25-04-18 14:01:13 INFO  | Started ChatGatewayApplication in 14.845 seconds (process running for 15.349)
+25-04-18 14:01:14 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:04:39 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:04:39 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:04:40 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:04:40 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:04:40 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 14:04:40 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 14:04:40 INFO  | [AUTH] path: /ws/read/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 14:04:40 WARN  | [78eb17a9-1, L:/127.0.0.1:52731 - R:localhost/127.0.0.1:8081] The connection observed an error
+io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Invalid handshake response getStatus: 303 See Other
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker13.verify(WebSocketClientHandshaker13.java:312)
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker.finishHandshake(WebSocketClientHandshaker.java:364)
+	at reactor.netty.http.client.WebsocketClientOperations.onInboundNext(WebsocketClientOperations.java:121)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-18 14:04:40 WARN  | [78eb17a9-1, L:/127.0.0.1:52731 ! R:localhost/127.0.0.1:8081] An exception has been observed post termination, use DEBUG level to see the full stack: io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Connection prematurely closed BEFORE opening handshake is complete.
+25-04-18 14:04:40 INFO  | [AUTH] path: /ws/status/user1
+25-04-18 14:04:40 WARN  | [21fab64c-1, L:/127.0.0.1:52734 - R:localhost/127.0.0.1:8081] The connection observed an error
+io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Invalid handshake response getStatus: 303 See Other
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker13.verify(WebSocketClientHandshaker13.java:312)
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker.finishHandshake(WebSocketClientHandshaker.java:364)
+	at reactor.netty.http.client.WebsocketClientOperations.onInboundNext(WebsocketClientOperations.java:121)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-18 14:04:40 WARN  | [21fab64c-1, L:/127.0.0.1:52734 ! R:localhost/127.0.0.1:8081] An exception has been observed post termination, use DEBUG level to see the full stack: io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Connection prematurely closed BEFORE opening handshake is complete.
+25-04-18 14:04:40 INFO  | [AUTH] path: /api/chat/history
+25-04-18 14:04:46 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:05:25 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:05:27 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:05:27 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:05:27 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:05:27 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 14:05:27 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 14:05:27 INFO  | [AUTH] path: /ws/read/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 14:05:27 WARN  | [3e4aa4e1-1, L:/127.0.0.1:52785 - R:localhost/127.0.0.1:8081] The connection observed an error
+io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Invalid handshake response getStatus: 303 See Other
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker13.verify(WebSocketClientHandshaker13.java:312)
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker.finishHandshake(WebSocketClientHandshaker.java:364)
+	at reactor.netty.http.client.WebsocketClientOperations.onInboundNext(WebsocketClientOperations.java:121)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-18 14:05:27 WARN  | [3e4aa4e1-1, L:/127.0.0.1:52785 ! R:localhost/127.0.0.1:8081] An exception has been observed post termination, use DEBUG level to see the full stack: io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Connection prematurely closed BEFORE opening handshake is complete.
+25-04-18 14:05:27 INFO  | [AUTH] path: /api/chat/history
+25-04-18 14:05:27 INFO  | [AUTH] path: /ws/status/user1
+25-04-18 14:05:27 WARN  | [13c1dd46-1, L:/127.0.0.1:52789 - R:localhost/127.0.0.1:8081] The connection observed an error
+io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Invalid handshake response getStatus: 303 See Other
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker13.verify(WebSocketClientHandshaker13.java:312)
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker.finishHandshake(WebSocketClientHandshaker.java:364)
+	at reactor.netty.http.client.WebsocketClientOperations.onInboundNext(WebsocketClientOperations.java:121)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-18 14:05:27 WARN  | [13c1dd46-1, L:/127.0.0.1:52789 ! R:localhost/127.0.0.1:8081] An exception has been observed post termination, use DEBUG level to see the full stack: io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Connection prematurely closed BEFORE opening handshake is complete.
+25-04-18 14:05:31 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:05:37 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:05:37 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:05:37 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:05:37 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 14:05:37 INFO  | [AUTH] path: /ws/chat/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 14:05:37 INFO  | [AUTH] path: /ws/read/4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4
+25-04-18 14:05:37 WARN  | [abccef52-1, L:/127.0.0.1:52796 - R:localhost/127.0.0.1:8081] The connection observed an error
+io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Invalid handshake response getStatus: 303 See Other
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker13.verify(WebSocketClientHandshaker13.java:312)
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker.finishHandshake(WebSocketClientHandshaker.java:364)
+	at reactor.netty.http.client.WebsocketClientOperations.onInboundNext(WebsocketClientOperations.java:121)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-18 14:05:37 WARN  | [abccef52-1, L:/127.0.0.1:52796 ! R:localhost/127.0.0.1:8081] An exception has been observed post termination, use DEBUG level to see the full stack: io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Connection prematurely closed BEFORE opening handshake is complete.
+25-04-18 14:05:37 INFO  | [AUTH] path: /api/chat/history
+25-04-18 14:05:37 INFO  | [AUTH] path: /ws/status/user1
+25-04-18 14:05:37 WARN  | [613ee3ba-2, L:/127.0.0.1:52798 - R:localhost/127.0.0.1:8081] The connection observed an error
+io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Invalid handshake response getStatus: 303 See Other
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker13.verify(WebSocketClientHandshaker13.java:312)
+	at io.netty.handler.codec.http.websocketx.WebSocketClientHandshaker.finishHandshake(WebSocketClientHandshaker.java:364)
+	at reactor.netty.http.client.WebsocketClientOperations.onInboundNext(WebsocketClientOperations.java:121)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:115)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-18 14:05:37 WARN  | [613ee3ba-2, L:/127.0.0.1:52798 ! R:localhost/127.0.0.1:8081] An exception has been observed post termination, use DEBUG level to see the full stack: io.netty.handler.codec.http.websocketx.WebSocketClientHandshakeException: Connection prematurely closed BEFORE opening handshake is complete.
+25-04-18 14:05:42 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:06:30 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:07:42 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:07:45 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:08:31 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-18 14:08:31 INFO  | Starting ChatGatewayApplication using Java 17 with PID 29308 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-18 14:08:31 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-18 14:08:32 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 14:08:32 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-18 14:08:32 INFO  | Finished Spring Data repository scanning in 25 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-18 14:08:32 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 14:08:33 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-18 14:08:33 INFO  | Finished Spring Data repository scanning in 30 ms. Found 0 R2DBC repository interfaces.
+25-04-18 14:08:33 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 14:08:33 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-18 14:08:33 INFO  | Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+25-04-18 14:08:33 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-18 14:08:36 INFO  | Cannot determine local hostname
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [After]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-18 14:08:36 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-18 14:08:37 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-18 14:08:37 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-18 14:08:37 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@2864d34d, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5fb514c2, com.mongodb.Jep395RecordCodecProvider@3e9b3b3c, com.mongodb.KotlinCodecProvider@3c97f5e9]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-18 14:08:37 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=85579300, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=68018a8ac162d248401b1141, counter=4}, lastWriteDate=Fri Apr 18 14:08:27 KST 2025, lastUpdateTimeNanos=21876389461700}
+25-04-18 14:08:37 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=85610000, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000054, setVersion=3, topologyVersion=TopologyVersion{processId=680188f565a478866e50ac58, counter=11}, lastWriteDate=Fri Apr 18 14:08:27 KST 2025, lastUpdateTimeNanos=21876389488200}
+25-04-18 14:08:37 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000054 and max set version 3
+25-04-18 14:08:39 INFO  | Cannot determine local hostname
+25-04-18 14:08:39 INFO  | Netty started on port 80 (http)
+25-04-18 14:08:41 INFO  | Cannot determine local hostname
+25-04-18 14:08:42 INFO  | Cannot determine local hostname
+25-04-18 14:08:42 INFO  | Started ChatGatewayApplication in 13.547 seconds (process running for 14.072)
+25-04-18 14:11:26 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:11:26 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 14:11:26 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-18 14:11:26 ERROR | [5cab4893-1] 500 Server Error for HTTP POST "/api/chat/offline?roomId=4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4&userId=user2"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8081
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/api/chat/offline?roomId=4s3-gg-ftbQXHFyQQZQTRW9nZjB-qZ2Ce4l4Z8zYUo4&userId=user2" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-18 14:11:31 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-18 14:11:31 INFO  | Starting ChatGatewayApplication using Java 17 with PID 6264 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-18 14:11:31 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-18 14:11:32 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 14:11:32 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-18 14:11:32 INFO  | Finished Spring Data repository scanning in 20 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-18 14:11:32 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 14:11:32 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-18 14:11:32 INFO  | Finished Spring Data repository scanning in 8 ms. Found 0 R2DBC repository interfaces.
+25-04-18 14:11:32 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 14:11:32 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-18 14:11:32 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-04-18 14:11:32 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-18 14:11:35 INFO  | Cannot determine local hostname
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [After]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-18 14:11:35 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-18 14:11:36 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-18 14:11:36 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-18 14:11:36 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@32e7b78d, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4583b617, com.mongodb.Jep395RecordCodecProvider@22a63740, com.mongodb.KotlinCodecProvider@211da640]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-18 14:11:36 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=62222300, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=68018a8ac162d248401b1141, counter=4}, lastWriteDate=Fri Apr 18 14:11:27 KST 2025, lastUpdateTimeNanos=22055072180700}
+25-04-18 14:11:36 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=62219700, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000054, setVersion=3, topologyVersion=TopologyVersion{processId=680188f565a478866e50ac58, counter=11}, lastWriteDate=Fri Apr 18 14:11:27 KST 2025, lastUpdateTimeNanos=22055072180700}
+25-04-18 14:11:36 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000054 and max set version 3
+25-04-18 14:11:38 INFO  | Cannot determine local hostname
+25-04-18 14:11:38 INFO  | Netty started on port 80 (http)
+25-04-18 14:11:39 INFO  | Cannot determine local hostname
+25-04-18 14:11:41 INFO  | Cannot determine local hostname
+25-04-18 14:11:41 INFO  | Started ChatGatewayApplication in 12.21 seconds (process running for 12.72)
+25-04-18 14:56:40 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:56:40 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 14:56:40 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 14:56:40 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:56:40 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 14:56:40 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 14:56:41 INFO  | [AUTH] path: /login
+25-04-18 14:56:41 INFO  | [AUTH] path: /view/chatListView
+25-04-18 14:56:41 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:56:43 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:56:43 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:56:43 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:56:43 INFO  | [AUTH] path: /view/chatView
+25-04-18 14:56:43 INFO  | [AUTH] path: /api/chat/history
+25-04-18 14:56:45 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:56:49 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:56:49 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 14:56:49 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-18 14:56:49 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:56:56 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:56:58 INFO  | [AUTH] path: /view/chatListView
+25-04-18 14:56:58 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:57:10 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 14:59:18 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:00:39 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:00:39 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:00:39 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:00:39 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:00:40 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:00:50 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:00:53 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:00:53 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:00:53 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:00:53 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:00:54 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:01:03 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:03:08 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:03:08 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:03:09 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:03:09 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:03:11 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:03:15 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:03:15 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:03:15 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:03:15 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:03:16 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:07:00 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:07:00 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:19:02 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:19:04 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:19:04 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:19:05 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:19:05 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:19:07 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:19:11 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:19:15 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:19:15 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:19:15 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:19:16 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:19:17 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:19:26 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:19:34 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:20:41 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:20:41 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:20:41 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:20:41 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:20:47 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:20:48 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:20:56 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:23:40 INFO  | HV000001: Hibernate Validator 8.0.2.Final
+25-04-18 15:23:40 INFO  | Starting ChatGatewayApplication using Java 17 with PID 23364 (C:\Java\2025Space\SoketTest_split\ChatGateway\build\classes\java\main started by SMCHAE in C:\Java\2025Space\SoketTest_split\ChatGateway)
+25-04-18 15:23:40 INFO  | No active profile set, falling back to 1 default profile: "default"
+25-04-18 15:23:41 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 15:23:41 INFO  | Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+25-04-18 15:23:41 INFO  | Finished Spring Data repository scanning in 22 ms. Found 0 Reactive MongoDB repository interfaces.
+25-04-18 15:23:41 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 15:23:41 INFO  | Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+25-04-18 15:23:41 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 R2DBC repository interfaces.
+25-04-18 15:23:41 INFO  | Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-18 15:23:41 INFO  | Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-18 15:23:41 INFO  | Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-04-18 15:23:41 INFO  | BeanFactory id=219a1fda-5756-30c3-8334-c2911586063e
+25-04-18 15:23:44 INFO  | Cannot determine local hostname
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [After]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [Before]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [Between]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [Cookie]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [Header]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [Host]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [Method]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [Path]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [Query]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [ReadBody]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [RemoteAddr]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [Weight]
+25-04-18 15:23:44 INFO  | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+25-04-18 15:23:45 INFO  | Adding discovered server localhost:27017 to client view of cluster
+25-04-18 15:23:45 INFO  | Adding discovered server localhost:27018 to client view of cluster
+25-04-18 15:23:45 INFO  | MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17+35-2724"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=NettyTransportSettings{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@a63643e, socketChannelClass=null, allocator=null, sslContext=null}, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@43294e9b, com.mongodb.Jep395RecordCodecProvider@26d24d7a, com.mongodb.KotlinCodecProvider@5a78b52b]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017, localhost:27018], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+25-04-18 15:23:45 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27018, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=60586600, setName='rs0', canonicalAddress=localhost:27018, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=null, setVersion=3, topologyVersion=TopologyVersion{processId=68018a8ac162d248401b1141, counter=4}, lastWriteDate=Fri Apr 18 15:23:38 KST 2025, lastUpdateTimeNanos=26384230773000}
+25-04-18 15:23:45 INFO  | Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=60580200, setName='rs0', canonicalAddress=localhost:27017, hosts=[localhost:27018, localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000054, setVersion=3, topologyVersion=TopologyVersion{processId=680188f565a478866e50ac58, counter=11}, lastWriteDate=Fri Apr 18 15:23:38 KST 2025, lastUpdateTimeNanos=26384230773000}
+25-04-18 15:23:45 INFO  | Discovered replica set primary localhost:27017 with max election id 7fffffff0000000000000054 and max set version 3
+25-04-18 15:23:47 INFO  | Cannot determine local hostname
+25-04-18 15:23:47 INFO  | Netty started on port 80 (http)
+25-04-18 15:23:48 INFO  | Cannot determine local hostname
+25-04-18 15:23:50 INFO  | Cannot determine local hostname
+25-04-18 15:23:50 INFO  | Started ChatGatewayApplication in 12.446 seconds (process running for 12.956)
+25-04-18 15:24:03 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:24:03 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:24:03 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:24:03 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:24:06 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:25:02 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:25:02 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:25:02 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:25:03 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:25:04 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:25:57 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:25:57 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:25:58 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:25:58 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:26:10 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:26:24 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:26:24 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:26:24 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:26:24 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:26:27 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:26:33 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:26:47 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:26:47 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 15:26:47 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 15:26:53 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:26:58 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:26:58 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:26:58 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:26:59 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:27:07 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:27:14 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:27:15 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:27:16 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:27:16 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:27:16 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:27:19 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:27:21 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:27:21 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 15:27:21 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-18 15:27:23 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:27:28 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:27:36 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:27:36 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:27:40 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:27:40 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:27:45 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:27:45 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:29:53 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:29:59 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:29:59 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:30:00 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:30:00 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:30:01 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:30:01 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:30:01 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:30:02 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:30:44 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:30:44 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:31:14 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:31:29 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:31:36 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:31:46 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:31:47 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:31:51 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:31:51 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:31:51 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:31:52 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:31:53 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:31:53 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:31:53 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:31:53 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:31:54 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:31:54 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:31:54 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:31:55 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:31:55 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:31:55 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:32:05 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:32:23 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:33:08 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:35:59 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:35:59 ERROR | [94bba08a-65]  500 Server Error for HTTP GET "/view/chatListView"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8082
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/view/chatListView" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25-04-18 15:36:10 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:36:12 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:37:10 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:37:13 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:37:17 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:37:18 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:37:18 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:37:18 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:37:18 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:37:23 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:37:32 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:37:34 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:37:35 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:37:35 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:37:35 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:37:35 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:37:37 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:37:59 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:40:24 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:40:24 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:40:24 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:40:26 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:40:26 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:40:57 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:40:58 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:40:58 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:40:58 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:40:58 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:40:59 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:40:59 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:41:02 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:41:02 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:41:02 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:41:04 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:41:04 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:41:05 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:41:05 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:41:05 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:41:06 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:41:06 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:41:07 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:41:07 INFO  | [AUTH] path: /view/chatView
+25-04-18 15:41:07 INFO  | [AUTH] path: /api/chat/history
+25-04-18 15:41:08 INFO  | [AUTH] path: /view/chatListView
+25-04-18 15:41:08 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 15:45:22 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:18:10 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:18:10 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 16:18:10 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 16:21:09 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:21:09 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:21:14 INFO  | [AUTH] path: /
+25-04-18 16:21:14 INFO  | [AUTH] path: /login
+25-04-18 16:21:14 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:21:16 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:21:16 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:21:16 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:21:16 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:21:16 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:21:16 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:21:19 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:21:40 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:21:44 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:21:49 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:21:54 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:22:35 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:22:35 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:22:35 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:22:36 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:22:36 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:22:36 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:22:39 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:22:39 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:22:39 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:22:39 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:22:39 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:22:39 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:22:46 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:22:49 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:23:07 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:23:10 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:24:05 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:24:09 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:24:49 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:24:56 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:25:01 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:45:54 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:45:55 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:45:55 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:45:57 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:46:00 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:46:00 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:47:17 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:47:17 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:47:18 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:47:21 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:47:23 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:47:23 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:47:23 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:47:24 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:47:24 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:47:27 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:47:27 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:47:28 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:47:28 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:47:29 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:47:29 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:47:30 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:47:30 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:47:32 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:47:32 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:47:33 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:47:33 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:47:33 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:47:34 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:47:48 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:47:48 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:47:48 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:47:54 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:47:54 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 16:47:55 INFO  | [AUTH] AccessToken 재발급 완료 : user2
+25-04-18 16:48:00 INFO  | [AUTH] path: /
+25-04-18 16:48:00 INFO  | [AUTH] path: /login
+25-04-18 16:48:00 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:48:02 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:02 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:02 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:48:04 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:48:04 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:04 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:04 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:48:04 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:48:10 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:10 WARN  | JWT 디코딩 실패: JWT expired 31 milliseconds ago at 2025-04-18T07:48:10.000Z. Current time: 2025-04-18T07:48:10.031Z. Allowed clock skew: 0 milliseconds.
+25-04-18 16:48:10 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 16:48:10 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:10 WARN  | JWT 디코딩 실패: JWT expired 34 milliseconds ago at 2025-04-18T07:48:10.000Z. Current time: 2025-04-18T07:48:10.034Z. Allowed clock skew: 0 milliseconds.
+25-04-18 16:48:10 INFO  | [AUTH] AccessToken 재발급 완료 : user1
+25-04-18 16:48:10 INFO  | [AUTH] path: /login
+25-04-18 16:48:10 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:48:10 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:48:11 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:48:12 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:48:24 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:24 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:25 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:48:25 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:48:28 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:28 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:28 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:48:28 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:48:43 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:48:43 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:43 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:48:44 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:48:47 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:48:50 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:48:50 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:49:00 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:49:00 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:49:00 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:49:04 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:49:04 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:49:04 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:49:04 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:49:10 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:49:10 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:49:10 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:49:10 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:49:10 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:49:10 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:49:15 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:49:15 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:49:15 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:50:31 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:50:35 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:50:35 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:50:36 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:50:38 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:50:46 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:50:47 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:50:47 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:50:47 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:50:48 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:50:58 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:50:58 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:50:58 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:50:58 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:51:16 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:51:17 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:51:17 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:51:17 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:51:18 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:51:19 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:51:19 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:51:19 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:51:34 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:51:34 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 16:51:34 INFO  | [AUTH] AccessToken 재발급 완료 : user3
+25-04-18 16:51:34 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:51:34 WARN  | JWT 디코딩 실패: CharSequence cannot be null or empty.
+25-04-18 16:51:34 INFO  | [AUTH] AccessToken 재발급 완료 : user3
+25-04-18 16:51:38 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:51:39 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:51:39 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:51:39 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:51:39 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:51:39 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:51:42 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:51:44 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:56:06 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:56:40 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:56:40 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:56:40 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:56:40 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:56:40 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:56:40 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:56:41 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:56:47 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:56:47 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:56:47 INFO  | [AUTH] path: /view/chatView
+25-04-18 16:56:47 INFO  | [AUTH] path: /api/chat/history
+25-04-18 16:56:49 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:56:54 INFO  | [AUTH] path: /api/chat/online
+25-04-18 16:56:54 INFO  | [AUTH] path: /view/chatListView
+25-04-18 16:56:54 INFO  | [AUTH] path: /api/chat/offline
+25-04-18 16:56:54 INFO  | [AUTH] path: /api/chat/offline

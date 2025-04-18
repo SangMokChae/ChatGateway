@@ -26,13 +26,6 @@ spring:
           predicates:
             - Path=/,/login,/loginProc,/logout
 
-        - id: chat-api-chatView
-          uri: http://localhost:8081
-          predicates:
-            - Path=/view/chatView
-          filters:
-            - name: Authentication
-
         - id: chat-ws
           uri: http://localhost:8081
           predicates:
@@ -45,15 +38,49 @@ spring:
           predicates:
             - Path=/api/chat/**
 
+        - id: chat-read
+          uri: http://localhost:8081
+          predicates:
+            - Path=/ws/read/**
+
+        - id: chat-notify
+          uri: http://localhost:8081
+          predicates:
+            - Path=/ws/read/**
+
+        - id: chat-status
+          uri: http://localhost:8081
+          predicates:
+            - Path=/ws/status/**
+
         - id: chat-list
           uri: http://localhost:8082
           predicates:
-            - Path=/api/chatList/**,/view/chatListView,/ws/chatList/**
+            - Path=/api/chatList/**,/ws/chatList/**
 
         - id: friends
           uri: http://localhost:8082
           predicates:
-            - Path=/view/friendListView,/api/friends,/api/friends/**
+            - Path=/api/friends/**
+
+        ## Views ##
+
+        - id: chat-api-chatView
+          uri: http://localhost:8081
+          predicates:
+            - Path=/view/chatView
+          filters:
+            - name: Authentication
+
+        - id: chat-list-view
+          uri: http://localhost:8082
+          predicates:
+            - Path=/view/chatListView
+
+        - id: friends-view
+          uri: http://localhost:8082
+          predicates:
+            - Path=/view/friendListView
 
   kafka:
     bootstrap-servers: localhost:9092

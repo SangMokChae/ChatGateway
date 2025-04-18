@@ -120,7 +120,7 @@ public class AuthenticationGatewayFilterFactory extends AbstractGatewayFilterFac
 	@Getter
 	@Setter
 	public static class Config {
-		private List<String> excludePaths = Arrays.asList("/", "/login", "/loginProc", "/favicon.ico", "/logout", "/ws/chat/");
+		private List<String> excludePaths = Arrays.asList("/", "/login", "/loginProc", "/favicon.ico", "/logout", "/ws/chat/**", "/ws/notify/**", "/ws/read/**", "/ws/status/**");
 	}
 }
 
