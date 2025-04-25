@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Map;
 
 @Data
 @Builder
@@ -18,22 +19,9 @@ public class ChatRoomRedisDto {
 	private String roomName;
 	private String lastMessage;
 	private LocalDateTime lastMessageTime;
-	private List<String> userIds;
+	private List<String> participants; // ✅ 각 유저의 unread 계산에 필요
 	private String lastSender;
 	private int readCount;
-	
-	// MongoDB에서 fallback할 때 사용
-	public static ChatRoomRedisDto from(ChatRoom chatRoom) {
-		return ChatRoomRedisDto.builder()
-			.roomId(chatRoom.getRoomId())
-			.roomName(chatRoom.getRoomName())
-			.lastMessage(chatRoom.getLastMessage())
-			.lastMessageTime(chatRoom.getLastMessageTime())
-			.build();
-	}
-	
-	public String getRedisKey() {
-		return "chat_room:" + this.roomId + ":" + lastSender + ":" + readCount;
-	}
+	private Map<String, Long> readCountMap; // ✅ 유저별 readCount 저장용
 	
 }

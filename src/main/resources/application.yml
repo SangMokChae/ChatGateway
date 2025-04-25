@@ -38,20 +38,15 @@ spring:
           predicates:
             - Path=/api/chat/**
 
-        - id: chat-read
+        - id: chat-read-status
           uri: http://localhost:8081
           predicates:
-            - Path=/ws/read/**
+            - Path=/ws/rs/**
 
         - id: chat-notify
           uri: http://localhost:8081
           predicates:
-            - Path=/ws/read/**
-
-        - id: chat-status
-          uri: http://localhost:8081
-          predicates:
-            - Path=/ws/status/**
+            - Path=/ws/notify/**
 
         - id: chat-list
           uri: http://localhost:8082
