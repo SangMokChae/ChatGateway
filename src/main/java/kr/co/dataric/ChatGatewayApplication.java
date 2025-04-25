@@ -22,7 +22,7 @@ public class ChatGatewayApplication {
  * 2. mongod --port 27018 --replSet rs0 --dbpath="C:\Java\mongo\db1" --> mongo 27017, 27018 port를 연결
  *
  * --> mongosh "mongodb://localhost:27017,localhost:27018/?replicaSet=rs0" 로 접속하여 27017, 27018을 실행한다.
- *
+ 
  * ZOOKEEPER 실행 명령어
  * CMD -> CD /kafka
  * .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
