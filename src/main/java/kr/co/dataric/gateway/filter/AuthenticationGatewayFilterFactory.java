@@ -75,6 +75,11 @@ public class AuthenticationGatewayFilterFactory extends AbstractGatewayFilterFac
 					return redirectToLogin(exchange);
 				}
 				
+				ServerHttpRequest mutatedRequest = exchange.getRequest()
+					.mutate()
+					.header("userId", userId)
+					.build();
+				
 				// 람다안에서 변경될 수 없다는 보장 때문에 새로 명시해준다.
 				String finalUserId = userId;
 				
@@ -93,7 +98,7 @@ public class AuthenticationGatewayFilterFactory extends AbstractGatewayFilterFac
 						log.info("[AUTH] AccessToken 재발급 완료 : {}", finalUserId);
 						exchange.getResponse().addCookie(newAccessCookie);
 						
-						return chain.filter(exchange);
+						return redirectToLogin(exchange);
 					})
 					.switchIfEmpty(redirectToLogin(exchange));
 			}
@@ -105,7 +110,13 @@ public class AuthenticationGatewayFilterFactory extends AbstractGatewayFilterFac
 				return redirectToLogin(exchange);
 			}
 			
-			return chain.filter(exchange);
+			// ✅ 헤더 주입이 필요함!! (지금 누락되어 있음)
+			ServerHttpRequest mutatedRequest = exchange.getRequest()
+				.mutate()
+				.header("userId", userId)
+				.build();
+			
+			return chain.filter(exchange.mutate().request(mutatedRequest).build());
 		};
 	}
 	
